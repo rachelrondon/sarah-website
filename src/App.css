@@ -121,6 +121,7 @@
 .App .gallery .gallery-photos .photos-row .gallery-main-img-div .gallery-main-img {
     width: 29rem;
     height: 29rem;
+    margin-top: 1rem;
 }
 
 .App .gallery .gallery-photos .photos-row .gallery-main-img-div .gallery-main-img:nth-child(1n) {
