@@ -107,12 +107,9 @@ const NavBar = () => {
               <MenuIcon />
             </IconButton>
             <div className="navbar-links">
-              <Typography className="title">
-                Sarah Rondon
-              </Typography>
               <div className="links">
                 <Typography className="link">
-                  <a href="/">Home</a>
+                  <a href="/shop">Shop</a>
                 </Typography>
                 <Typography className="link">
                   <a href="/about">About</a>
@@ -123,9 +120,17 @@ const NavBar = () => {
                 <Typography className="link">
                   <a href="/gallery">Gallery</a>
                 </Typography>
-                <Typography className="link">
-                  <a href="/shop">Shop</a>
+              </div>
+              <div>
+                <Typography className="title">
+                  Sarah Rondon
                 </Typography>
+              </div>
+              <div className="nav-icons">
+                <div className="icon">Insta</div>
+                <div className="icon">FB</div>
+                <div className="icon">Twitter</div>
+                <div className="icon">Cart</div>
               </div>
             </div>
           </Toolbar>
@@ -143,19 +148,16 @@ const NavBar = () => {
           </div>
           <List className="mobile-nav-list">
             <ListItem>
-                <a href="/">HOME</a>
+                <a href="/shop">Shop</a>
             </ListItem>
             <ListItem>
-                <a href="/about">ABOUT</a>
+                <a href="/about">About</a>
             </ListItem>
             <ListItem>
-                <a target="_blank" href="https://sarahrondon.blogspot.com/?m=1">BLOG</a>
+                <a href="/">Blog</a>
             </ListItem>
             <ListItem>
-                <a href="/gallery">GALLERY</a>
-            </ListItem>
-            <ListItem>
-                <a href="/shop">SHOP</a>
+                <a href="/gallery">Gallery</a>
             </ListItem>
           </List>
         </Drawer>
