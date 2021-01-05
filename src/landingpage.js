@@ -18,7 +18,7 @@ export default function LandingPage() {
           <div className="content-wrapper">
             <div className="content">
               <h1 className="h1">Sarah Rondon</h1>
-              <p className="sub-title">Sarah Rondon Portfolio Website</p>
+              <p className="sub-title">Ceramics, Painting, and Sketch Portfolio</p>
             </div>
           </div>
 
@@ -47,9 +47,8 @@ export default function LandingPage() {
               </div>
               <div className="image-card-wrapper">
                 <div className="image-card">
-                  <h2>Sarah Rondon, Artwork</h2>
-                  <p className="image-card-content">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                  Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                  <h2>About Sarah Rondon</h2>
+                  <p className="image-card-content">Sarah Rondon graduated from SUNY New Paltz with a Bachelors of Fine Arts</p>
                 </div>
             </div>
           </div>

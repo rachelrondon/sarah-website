@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './navbar.js';
+import Footer from './footer.js';
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import LandingPage from './landingpage';
 import Gallery from './gallery';
@@ -31,6 +32,7 @@ class App extends Component {
           <Route path="/oil-paintings" component={OilPaintings} exact />
         </Switch>
       </BrowserRouter>
+      <Footer /> 
       </div>
     );
   }

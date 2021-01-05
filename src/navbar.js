@@ -89,78 +89,72 @@ const NavBar = () => {
   };
 
     return(
-      <div className="nav-bar">
-        <AppBar
-          position="static"
-          className={clsx(classes.appBar, {
-            [classes.appBarShift]: open,
-          })}
-        >
-          <Toolbar>
-            <IconButton
-              className={clsx(classes.menuButton, open && classes.hide)}
-              color="inherit"
-              aria-label="open drawer"
-              onClick={handleDrawerOpen}
-              edge="start"
-            >
-              <MenuIcon />
-            </IconButton>
-            <div className="navbar-links">
-              <div className="links">
-                <Typography className="link">
-                  <a href="/shop">Shop</a>
-                </Typography>
-                <Typography className="link">
-                  <a href="/about">About</a>
-                </Typography>
-                <Typography className="link">
-                  <a target="_blank" href="https://sarahrondon.blogspot.com/?m=1">Blog</a>
-                </Typography>
-                <Typography className="link">
-                  <a href="/gallery">Gallery</a>
-                </Typography>
+      <div className="nav-wrapper">
+        <div className="nav-bar">
+          <AppBar
+            position="static"
+            className={clsx(classes.appBar, {
+              [classes.appBarShift]: open,
+            })}
+          >
+            <Toolbar>
+              <IconButton
+                className={clsx(classes.menuButton, open && classes.hide)}
+                color="inherit"
+                aria-label="open drawer"
+                onClick={handleDrawerOpen}
+                edge="start"
+              >
+                <MenuIcon />
+              </IconButton>
+              <div className="navbar-links">
+                <div className="links">
+                  <Typography className="link">
+                    <a href="/shop">Shop</a>
+                  </Typography>
+                  <Typography className="link">
+                    <a href="/about">About</a>
+                  </Typography>
+                  <Typography className="link">
+                    <a target="_blank" href="https://sarahrondon.blogspot.com/?m=1">Blog</a>
+                  </Typography>
+                  <Typography className="link">
+                    <a href="/gallery">Gallery</a>
+                  </Typography>
+                </div>
+                <div className="nav-icons">
+                  <div className="icon">Cart</div>
+                </div>
               </div>
-              <div>
-                <Typography className="title">
-                  Sarah Rondon
-                </Typography>
-              </div>
-              <div className="nav-icons">
-                <div className="icon">Insta</div>
-                <div className="icon">FB</div>
-                <div className="icon">Twitter</div>
-                <div className="icon">Cart</div>
-              </div>
+            </Toolbar>
+          </AppBar>
+          <Drawer
+            variant="persistent"
+            anchor="left"
+            open={open}
+            className={classes.drawer}
+          >
+            <div className={classes.drawerHeader}>
+              <IconButton onClick={handleDrawerClose}>
+                {theme.direction === 'ltr' ? <CloseIcon /> : <CloseIcon />}
+              </IconButton>
             </div>
-          </Toolbar>
-        </AppBar>
-        <Drawer
-          variant="persistent"
-          anchor="left"
-          open={open}
-          className={classes.drawer}
-        >
-          <div className={classes.drawerHeader}>
-            <IconButton onClick={handleDrawerClose}>
-              {theme.direction === 'ltr' ? <CloseIcon /> : <CloseIcon />}
-            </IconButton>
+            <List className="mobile-nav-list">
+              <ListItem>
+                  <a href="/shop">Shop</a>
+              </ListItem>
+              <ListItem>
+                  <a href="/about">About</a>
+              </ListItem>
+              <ListItem>
+                  <a href="/">Blog</a>
+              </ListItem>
+              <ListItem>
+                  <a href="/gallery">Gallery</a>
+              </ListItem>
+            </List>
+          </Drawer>
           </div>
-          <List className="mobile-nav-list">
-            <ListItem>
-                <a href="/shop">Shop</a>
-            </ListItem>
-            <ListItem>
-                <a href="/about">About</a>
-            </ListItem>
-            <ListItem>
-                <a href="/">Blog</a>
-            </ListItem>
-            <ListItem>
-                <a href="/gallery">Gallery</a>
-            </ListItem>
-          </List>
-        </Drawer>
       </div>
     )
   }

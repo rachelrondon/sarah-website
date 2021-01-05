@@ -3,14 +3,51 @@
   background-color: #282D30;
 }
 
+.App .gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  padding-bottom: 59.07px;
+  padding-left: 107.4px;
+  padding-right: 107.4px;
+  padding-top: 59.07px;
+  justify-content: center;
+}
+
+.App .gallery .main-gallery-photo img {
+  width: 29rem;
+  height: 41rem;
+  margin: 5rem;
+}
+
+.App .gallery .main-gallery-photo .gallery-photo-txt-wrapper {
+  opacity: 1;
+}
+
+.App .gallery .main-gallery-photo .gallery-photo-wrapper {
+  position: relative;
+}
+
+.App .gallery .main-gallery-photo .gallery-photo-txt-wrapper .gallery-photo-txt {
+  position: absolute;
+  overflow: auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 7%;
+  text-align: center;
+  transition: opacity ease 200ms;
+  z-index: 100;
+}
+
 .App .content-wrapper-callout {
   background-color: rgb(233, 206, 176);
   display: flex;
   flex-direction: row;
   margin: 0 auto;
-/*  padding-right: 4vw;
-  padding-left: 4vw;
-  padding: 7rem 4.25rem; */
+  padding: 7rem 4.25rem;
 }
 
 .App .content-wrapper-callout .left-image {
@@ -55,10 +92,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 10rem;
   padding: 1rem 0;
-  /* padding-top: 1rem;
-  padding-bottom: 1rem; */
   width: 100%;
 }
 
@@ -67,14 +101,12 @@
   display: flex;
   font-family: 'Spartan', sans-serif;
   font-weight: 100;
-  padding-right: 5rem;
 }
 
 .App .navbar-links .nav-icons {
   align-items: center;
   display: flex;
   flex-direction: row;
-  margin-right: 10rem;
 }
 
 .App .navbar-links .nav-icons .icon {
@@ -87,7 +119,6 @@
   font-family: 'Spartan', sans-serif;
   font-size: 2rem;
   font-weight: 100;
-  padding-left: 5rem;
 }
 
 .App .MuiTypography-body1 {
@@ -129,93 +160,6 @@
   position: absolute;
 }
 
-.App .gallery {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin-top: 5rem;
-  text-align: center;
-}
-
-.App .gallery .gallery-photos .photos-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 5rem 0;
-/* margin-bottom: 5rem;
-  margin-top: 5rem;
-  margin: 0 auto;  */
-  max-width: 90rem;
-}
-
-.App .gallery .gallery-photos .photos-row .photo {
-  height: auto;
-  margin-bottom: 5rem;
-  width: 29rem;
-}
-
-.App .gallery .gallery-main-title {
-  font-family: 'Spartan', sans-serif;
-  font-size: 2rem;
-  font-weight: 100;
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-}
-
-.App .gallery .gallery-photos .photos-row .photo {
-  height: auto;
-  margin-bottom: 5rem;
-  width: 29rem;
-}
-
-.App .gallery .gallery-photos .photos-row .gallery-main-img-div {
-  color: #ffffff;
-  position: relative;
-  text-align: center;
-}
-
-.App .gallery .gallery-photos .photos-row .gallery-main-img-div .gallery-main-img {
-  height: 29rem;
-  margin-top: 1rem;
-  width: 29rem;
-}
-
-.App .gallery .gallery-photos .photos-row .gallery-main-img-div .gallery-main-img:nth-child(1n) {
-  margin-right: 1rem;
-}
-
-.App .gallery .gallery-photos .photos-row .gallery-main-img-div .gallery-main-img:nth-child(2n) {
-  margin-right: 1rem;
-}
-
-.App .gallery .gallery-photos .photo:nth-child(2n) {
-  margin-right: 1rem;
-}
-
-.App .gallery .gallery-photos .photo:nth-child(1n) {
-  margin-right: 1rem;
-}
-
-.App .gallery .title {
-  font-family: 'Spartan', sans-serif;
-  font-size: 2rem;
-  font-weight: 100;
-  margin-bottom: 5rem;
-  margin-top: 5rem;
-}
-
-/* gallery page */
-.App .gallery .gallery-title {
-  font-family: 'Spartan', sans-serif;
-  font-size: 2rem;
-  font-weight: 100;
-  margin-bottom: 4rem;
-  margin-top: 4rem;
-}
-
 /* landing page  */
 .App .landing-page. .content {
   display: flex;
@@ -234,7 +178,7 @@
 .App .landing-page .content-wrapper .content .content-imgs {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 5rem;
 }
 
@@ -288,7 +232,7 @@
 }
 
 .App .landing-page .content .h1 {
-  color: #ffffff;
+  color: #f48847;
   display: flex;
   flex-direction: column;
   font-size: calc((4 - 1) * 1.2vw + 1rem);
@@ -609,7 +553,33 @@
   left: 0;
   z-index: 9999;
   width: 100%;
-  background-color: #282D30
+  background-color: #282D30;
+}
+
+.App .nav-wrapper {
+  padding-top: 2.2vw;
+  padding-bottom: 2.2vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+
+.App .footer-wrapper {
+  padding-top: 2.2vw;
+  padding-bottom: 2.2vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  background-color: #282D30;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  height: 19rem;
+  justify-content: center;
+}
+
+.App .footer-wrapper p {
+  color: #f48847;
+  font-size: 1.3rem;
 }
 
 .App .nav-bar .MuiToolbar-root .links {
@@ -763,7 +733,6 @@
   flex-direction: row;
   justify-content: center;
 }
-
 
 .left-column {
   width: 50%;
