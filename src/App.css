@@ -418,21 +418,16 @@
   margin: 1rem;
 }
 
-/* alphabetical order */ 
-
+/* alphabetical order */
 .App .landing-page .names  {
-  display: flex;
-  display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
-  flex-direction: column;
   align-items: center;
+  color: #041e42;
+  display: flex;
+  flex-direction: column;
   font-family: 'Monsieur La Doulaise', cursive;
   font-size: 4.5rem;
-  color: #041e42;
-  margin-top: 10rem;
   margin-bottom: 10rem;
+  margin-top: 10rem;
 }
 
 .App .landing-page .names .name {
@@ -441,40 +436,29 @@
   line-height: .5;
 }
 
-
 .App .nav-bar .landing-page-details .wedding-date {
-  margin: 1rem;
   font-size: 2.625rem;
+  margin: 1rem;
 }
 
 .App .nav-bar .landing-page-details .wedding-location {
   margin: 1rem;
 }
 
-
 .App .nav-bar .MuiToolbar-root {
   align-items: center;
   background-color: #282D30;
   display: flex;
-  display: -webkit-box;
-     display: -moz-box;
-     display: -ms-flexbox;
-     display: -ms-flexbox;
   flex-direction: column;
   margin: 0;
   padding: 0;
 }
 
-
 .App .nav-bar .MuiToolbar-root .date-details {
   display: flex;
-  display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
   flex-direction: row;
-  width: 100%;
   font-family: 'Roboto Condensed', sans-serif;
+  width: 100%;
 }
 
 .App .nav-bar .MuiToolbar-root .date-details .wedding-location {
@@ -484,65 +468,51 @@
 }
 
 .App .nav-bar .MuiToolbar-root .date-details .wedding-date {
-  margin: 1rem;
-  font-size: 19px;
   font-family: 'Roboto Condensed', sans-serif;
+  font-size: 19px;
+  margin: 1rem;
 }
 
 .photos {
+  display: flex;
   height: auto;
   width: 100%;
-  display: flex;
-  display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
 }
 
 .rosecliff-photo {
+  display: flex;
   height: auto;
   width: 100%;
-  display: flex;
-  display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
 }
 
 .photos .photo {
-  width: 100%;
   height: auto;
   margin: 1rem;
   padding: 1rem;
+  width: 100%;
 }
 
 .App .nav-bar {
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  width: 100%;
   background-color: #282D30;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
 }
 
 .App .nav-wrapper {
-  padding-top: 2.2vw;
-  padding-bottom: 2.2vw;
-  padding-left: 4vw;
-  padding-right: 4vw;
+  padding: 2.2vw 4vw;
 }
 
 .App .footer-wrapper {
-  padding-top: 2.2vw;
-  padding-bottom: 2.2vw;
-  padding-left: 4vw;
-  padding-right: 4vw;
+  align-items: center;
   background-color: #282D30;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: auto;
   height: 19rem;
   justify-content: center;
+  padding: 2.2vw 4vw;
+  width: auto;
 }
 
 .App .footer-wrapper p {
@@ -552,24 +522,20 @@
 
 .App .nav-bar .MuiToolbar-root .links {
   display: flex;
-  display: -webkit-box;
-     display: -moz-box;
-     display: -ms-flexbox;
-     display: -ms-flexbox;
   flex-direction: row;
-  list-style: none;
   font-size: 19px;
+  list-style: none;
 }
 
 .App .nav-bar .MuiToolbar-root .links .link {
-  margin: 1rem;
   color: #041e42;
+  margin: 1rem;
 }
 
 .App .nav-bar .MuiToolbar-root .links .link a {
   color: #f48847;
-  text-decoration: none;
   font-family: 'Roboto Condensed', sans-serif;
+  text-decoration: none;
 }
 
 .App .MuiPaper-elevation4 {
@@ -582,15 +548,11 @@
 }
 
 .landing-page-details {
-  display: flex;
-  display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
-  flex-direction: column;
   align-items: center;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
   margin-top: 20rem;
+  width: 100%;
 }
 
 .horizontal-photo {
@@ -626,235 +588,109 @@
 }
 
 .App .landing-page .landing-page-details .date-details {
-  display: flex;
-  display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
-  flex-direction: row;
-  text-align: center;
-  margin-bottom: 5rem;
-  justify-content: space-around;
-  background-color: #041e42;
   color: white;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  background-color: #041e42;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+  padding: 5rem 0;
+  text-align: center;
   width: 100%;
 }
 
 .App .landing-page .landing-page-details .date-details .day-details {
   display: flex;
-  display: -webkit-box;
-     display: -moz-box;
-     display: -ms-flexbox;
-     display: -ms-flexbox;
   flex-direction: column;
 }
 
 .App .landing-page .landing-page-details .date-details .location-details {
   display: flex;
-  display: -webkit-box;
-     display: -moz-box;
-     display: -ms-flexbox;
-     display: -ms-flexbox;
   flex-direction: column;
 }
 
 .App .landing-page .landing-page-details .date-details .day {
-  font-size: 40px;
   font-family: 'Roboto Condensed', sans-serif;
+  font-size: 40px;
 }
 
 .App .landing-page .landing-page-details .date-details .city{
-  font-size: 40px;
   font-family: 'Roboto Condensed', sans-serif;
+  font-size: 40px;
 }
 
 .App .landing-page .landing-page-details .date-details .year {
-  font-size: 19px;
   font-family: 'Roboto Condensed', sans-serif;
+  font-size: 19px;
 }
 
 .App .landing-page .landing-page-details .date-details .state {
-  font-size: 19px;
   font-family: 'Roboto Condensed', sans-serif;
+  font-size: 19px;
 }
 
 .schedule {
   display: flex;
-  display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
   flex-direction: column;
   justify-content: center;
-  margin-top: 10rem;
   margin-bottom: 10rem;
+  margin-top: 10rem;
 }
 
 .schedule .column {
   display: flex;
-  display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
   flex-direction: row;
   justify-content: center;
 }
 
 .left-column {
-  width: 50%;
   text-align: center;
+  width: 50%;
 }
 
 .left-column .details .details-title {
+  color: #041e42;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 3.25rem;
-  color: #041e42;
   font-weight: 400;
 }
 
 .details-title-location {
+  color: #041e42;
   font-size: 1.25rem;
   font-weight: 400;
-  color: #041e42;
 }
 
 .left-column .details .detail {
-  font-family: 'Roboto Condensed', sans-serif;
   color: #041e42;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .right-column {
-  width: 50%;
   text-align: center;
+  width: 50%;
 }
 
 .right-column .details {
-  margin-left: 10rem;
-  margin-right: 10rem;
-  margin-bottom: 10rem;
+  margin: 10rem;
 }
 
 .left-column .details {
-  margin-left: 10rem;
-  margin-right: 10rem;
-  margin-bottom: 10rem;
+  margin: 10rem;
 }
 
 .right-column .details .details-title {
+  color: #041e42;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 3.25rem;
-  color: #041e42;
   font-weight: 400;
 }
 
 .right-column .details .detail {
+  color: #041e42;
   font-family: 'Roboto Condensed', sans-serif;
-  color: #041e42;
 }
 
-.travel .detail-note {
-  font-family: 'Roboto Condensed', sans-serif;
-  color: #041e42;
-  margin-right: 10rem;
-  margin-left: 5rem;
-  margin-bottom: 10rem;
-}
-
-.right-column .details .map-btn {
-  border: 5px solid #041e42;
-  background-color: rgba(255, 255, 255);
-  color: #041e42;
-  border: none;
-  margin: 0;
-  text-decoration: none;
-  padding: 0.75rem 0.75rem;
-  width: 5rem;
-  margin-top: 5rem;
-}
-
-.left-column .details .map-btn {
-  border: 5px solid #041e42;
-  background-color: rgba(255, 255, 255);
-  color: #041e42;
-  border: none;
-  margin: 0;
-  text-decoration: none;
-  padding: 0.75rem 0.75rem;
-  width: 5rem;
-  margin-top: 5rem;
-}
-
-
-.schedule .map-btn a {
-  color:#041e42;
-  padding: 1rem;
-  border: 1px solid #041e42;
-  background-color: rgba(255, 255, 255);
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-.schedule .map-btn a:hover {
-  background-color: #041e42;
-  color: rgba(255, 255, 255);
-}
-
-
-/* Travel */
-
-.travel {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-  display: flex;
-  display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  justify-content: center;
-}
-
-.travel .left-column {
-  width: 50%;
-  text-align: center;
-}
-
-.travel .left-column .details {
-  margin: 10rem;
-}
-
-.travel .left-column .details .details-title {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 3.25rem;
-  color: #041e42;
-  font-weight: 400;
-  margin-top: 0;
-}
-
-.travel .left-column .details .detail {
-  font-family: 'Roboto Condensed', sans-serif;
-  color: #041e42;
-}
-
-.travel .left-column .details .contact {
-  margin-top: 4rem;
-}
-
-.travel .left-column .details .details-title {
-  margin-bottom: 1rem;
-}
-
-.travel .right-column .details .contact {
-  margin-top: 4rem;
-}
-
-.travel .right-column .details .details-title {
-  margin-bottom: 1rem;
-}
 
 .nav-bar .MuiDrawer-paper {
   width: 100%;
@@ -866,17 +702,9 @@
   text-align: center;
   padding: 0;
 }
-.travel .right-column {
-  width: 50%;
-  text-align: center;
-}
 
 .App .nav-bar .mobile-nav-list .MuiTypography-root {
   display: flex;
-  display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
   flex-direction: row;
   list-style: none;
   font-family: 'Roboto Condensed', sans-serif;
@@ -887,96 +715,9 @@
   display: none;
 }
 
-.travel .right-column .details {
-  margin: 10rem;
-}
-
-.travel .right-column .details .details-title {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 3.25rem;
-  color: #041e42;
-  font-weight: 400;
-  margin-top: 0;
-}
-
-.travel .right-column .details .detail {
-  font-family: 'Roboto Condensed', sans-serif;
-  color: #041e42;
-}
-
-.travel .column {
-  display: flex;
-  display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
-  flex-direction: row;
-  text-align: center;
-}
-
-.travel .map-btn a {
-  color:#041e42;
-  padding: 1rem;
-  border: 1px solid #041e42;
-  background-color: rgba(255, 255, 255);
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-.travel .map-btn a:hover {
-  background-color: #041e42;
-  color: rgba(255, 255, 255);
-}
-
 .schedule .column .left-column .details-title {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 3.25rem;
-}
-
-/* things to do */
-
-.things-to-do {
-  display: flex;
-  flex-direction: column;
-  display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-}
-
-.things-to-do .column {
-  display: flex;
-  display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
-}
-
-.things-to-do .map-btn a {
-  color:#041e42;
-  padding: 1rem;
-  border: 1px solid #041e42;
-  background-color: rgba(255, 255, 255);
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-.things-to-do .map-btn a:hover {
-  background-color: #041e42;
-  color: rgba(255, 255, 255);
-}
-
-.things-to-do .things-to-do-img  {
-  width: 100%;
-  height: auto;
-}
-
-.things-to-do .things-to-do-img .img {
-  width: 15rem;
-  height: 15rem;
-  border-radius: 50%;
 }
 
 .drawer-paper {
@@ -988,59 +729,14 @@
   flex-shrink: 0;
 }
 
-.App .registry {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-}
-
-.App .registry .registry-links {
-  display: flex;
-  display: -webkit-box;
-     display: -moz-box;
-     display: -ms-flexbox;
-     display: -ms-flexbox;
-  flex-direction: column;
-  align-items: center;
-}
-
-.App .registry .registry-link {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 1.25rem;
-  color: #041e42;
-  font-weight: 400;
-  margin-bottom: 3rem;
-}
-
-.App .registry .details-title {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 3.25rem;
-  color: #041e42;
-  font-weight: 400;
-  text-decoration: none;
-  margin-bottom: 3rem;
-}
-
 .App .photos {
   display: flex;
-  display: -webkit-box;
-     display: -moz-box;
-     display: -ms-flexbox;
-     display: -ms-flexbox;
   flex-direction: row;
 }
 
 @media (max-width: 1200px) {
-  .travel .detail-note {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
   .App .photos {
     display: flex;
-    display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
     flex-direction: column;
   }
 
@@ -1062,10 +758,6 @@
 }
 
 @media (max-width: 767px) {
-  .travel .column {
-    margin-top: 5rem;
-  }
-
   .App .left-column .details {
     margin-left: 0;
     margin-right: 0;
@@ -1086,10 +778,6 @@
 
   .mobile-nav-list {
     display: flex;
-    display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
     flex-direction: column;
   }
 
@@ -1104,10 +792,6 @@
   .mobile-nav-list {
     font-size: 1.5rem;
     display: flex;
-    display: -webkit-box;
-     display: -moz-box;
-     display: -ms-flexbox;
-     display: -ms-flexbox;
   }
   .mobile-nav-list li {
     margin-top: 1rem;
@@ -1145,79 +829,39 @@
     margin-top: 0;
     margin-bottom: 0;
     display: flex;
-    display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
     flex-direction: column;
   }
   .travel {
     display: flex;
-    display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
     flex-direction: column;
     margin-top: 5rem;
   }
   .travel .column {
     display: flex;
-    display: -webkit-flexbox;
     flex-direction: column;
     align-items: center;
     margin-top: 5rem;
     margin-bottom: 5rem;
   }
-  .travel .left-column {
-    width: auto;
-  }
-  .travel .left-column .details {
-    margin: 0;
-  }
   .left-column .details {
     margin: 0;
-  }
-  .travel .right-column {
-    margin-top: 5rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-  .travel .right-column .details {
-    margin: 0;
-  }
-  .travel .right-column {
-    width: auto;
   }
   .right-column .details {
     margin: 0;
   }
   .things-to-do {
     display: flex;
-    display: -webkit-flexbox;
     flex-direction: column;
     margin-bottom: 5rem;
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  .left-column {
-    width: auto;
-    justify-content: center;
-  }
-  .right-column {
-    width: auto;
-    justify-content: center;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-  }
+
   .landing-page-details {
     margin-bottom: 0;
   }
   .landing-page .photos {
     display: flex;
-    display: -webkit-box;
-     display: -moz-box;
-     display: -ms-flexbox;
-     display: -ms-flexbox;
     flex-direction: column;
     margin-bottom: 5rem;
   }
@@ -1234,10 +878,6 @@
   }
   .App .nav-bar .MuiToolbar-root {
     display: flex;
-    display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
     flex-direction: row;
   }
   .App .nav-bar .MuiToolbar-root .makeStyles-menuButton-4 {
@@ -1246,49 +886,5 @@
   }
   .App .nav-bar .title {
     font-size: 35px;
-  }
-}
-
-@media (max-width: 1023px) {
-  .things-to-do .column {
-    display: flex;
-    display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-}
-
-.add-margin {
-  margin-top: 5rem;
-}
-
-@media (max-width: 1024px) {
-  .photos-page .photos-row {
-    display: flex;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -ms-flexbox;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0;
-    margin-bottom: 0;
-    width: auto;
-  }
-   .photos-row .photo-vertical {
-    width: 20rem;
-  }
-  .photos-row .horizontal-photo {
-   width: 20rem;
- }
-  .photos-page .photo {
-    margin-top: 5rem;
-  }
-  .photo-vertical {
-    margin-top: 0 !important;
   }
 }
