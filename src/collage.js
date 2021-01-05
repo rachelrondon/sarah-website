@@ -22,29 +22,24 @@ import collagePhotoEighteen from '../public/gallery-photos/collage-images/poppy-
 const OilPaintings = () => {
   return (
     <div className="gallery">
-        <h2 className="title">Collages</h2>
-        <div className="collages gallery-photos">
-          <div className="photos-row">
-            <img className="photo" src={collagePhotoOne} alt="collages" />
-            <img className="photo" src={collagePhotoTwo} alt="collages" />
-            <img className="photo" src={collagePhotoThree} alt="collages" />
-            <img className="photo" src={collagePhotoFour} alt="oil painting" />
-            <img className="photo" src={collagePhotoFive} alt="oil painting" />
-            <img className="photo" src={collagePhotoSix} alt="oil painting" />
-            <img className="photo" src={collagePhotoSeven} alt="oil painting" />
-            <img className="photo" src={collagePhotoEight} alt="oil painting" />
-            <img className="photo" src={collagePhotoNine} alt="oil painting" />
-            <img className="photo" src={collagePhotoTen} alt="oil painting" />
-            <img className="photo" src={collagePhotoEleven} alt="oil painting" />
-            <img className="photo" src={collagePhotoTwelve} alt="oil painting" />
-            <img className="photo" src={collagePhotoThirteen} alt="oil painting" />
-            <img className="photo" src={collagePhotoFourteen} alt="oil painting" />
-            <img className="photo" src={collagePhotoFifteen} alt="oil painting" />
-            <img className="photo" src={collagePhotoSixteen} alt="oil painting" />
-            <img className="photo" src={collagePhotoSeventeen} alt="oil painting" />
-            <img className="photo" src={collagePhotoEighteen} alt="oil painting" />
-          </div>
-        </div>
+      <img className="gallery-img" src={collagePhotoOne} alt="collages" />
+      <img className="gallery-img" src={collagePhotoTwo} alt="collages" />
+      <img className="gallery-img" src={collagePhotoThree} alt="collages" />
+      <img className="gallery-img" src={collagePhotoFour} alt="oil painting" />
+      <img className="gallery-img" src={collagePhotoFive} alt="oil painting" />
+      <img className="gallery-img" src={collagePhotoSix} alt="oil painting" />
+      <img className="gallery-img" src={collagePhotoSeven} alt="oil painting" />
+      <img className="gallery-img" src={collagePhotoEight} alt="oil painting" />
+      <img className="gallery-img" src={collagePhotoNine} alt="oil painting" />
+      <img className="gallery-img" src={collagePhotoTen} alt="oil painting" />
+      <img className="gallery-img" src={collagePhotoEleven} alt="oil painting" />
+      <img className="gallery-img" src={collagePhotoTwelve} alt="oil painting" />
+      <img className="gallery-img" src={collagePhotoThirteen} alt="oil painting" />
+      <img className="gallery-img" src={collagePhotoFourteen} alt="oil painting" />
+      <img className="gallery-img" src={collagePhotoFifteen} alt="oil painting" />
+      <img className="gallery-img" src={collagePhotoSixteen} alt="oil painting" />
+      <img className="gallery-img" src={collagePhotoSeventeen} alt="oil painting" />
+      <img className="gallery-img" src={collagePhotoEighteen} alt="oil painting" />
     </div>
   )
 }

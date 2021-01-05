@@ -29,38 +29,33 @@ import oilPaintingTwentyFive from '../public/gallery-photos/oil-paintings/IMG_15
 const OilPaintings = () => {
   return (
     <div className="gallery">
-        <h2 className="title">Oil Paintings</h2>
-        <div className="oil-paintings gallery-photos">
-          <div className="photos-row">
-            <img className="photo" src={oilPaintingOne} alt="oil painting" />
-            <img className="photo" src={oilPaintingTwo} alt="oil painting" />
-            <img className="photo" src={oilPaintingThree} alt="oil painting" />
-            <img className="photo" src={oilPaintingFour} alt="oil painting" />
-            <img className="photo" src={oilPaintingFive} alt="oil painting" />
-            <img className="photo" src={oilPaintingSix} alt="oil painting" />
-            <img className="photo" src={oilPaintingSeven} alt="oil painting" />
-            <img className="photo" src={oilPaintingEight} alt="oil painting" />
-            <img className="photo" src={oilPaintingSeven} alt="oil painting" />
-            <img className="photo" src={oilPaintingEight} alt="oil painting" />
-            <img className="photo" src={oilPaintingNine} alt="oil painting" />
-            <img className="photo" src={oilPaintingTen} alt="oil painting" />
-            <img className="photo" src={oilPaintingEleven} alt="oil painting" />
-            <img className="photo" src={oilPaintingTwelve} alt="oil painting" />
-            <img className="photo" src={oilPaintingThirteen} alt="oil painting" />
-            <img className="photo" src={oilPaintingFourteen} alt="oil painting" />
-            <img className="photo" src={oilPaintingFifteen} alt="oil painting" />
-            <img className="photo" src={oilPaintingSixteen} alt="oil painting" />
-            <img className="photo" src={oilPaintingSeventeen} alt="oil painting" />
-            <img className="photo" src={oilPaintingEighteen} alt="oil painting" />
-            <img className="photo" src={oilPaintingNineteen} alt="oil painting" />
-            <img className="photo" src={oilPaintingTwenty} alt="oil painting" />
-            <img className="photo" src={oilPaintingTwentyOne} alt="oil painting" />
-            <img className="photo" src={oilPaintingTwentyTwo} alt="oil painting" />
-            <img className="photo" src={oilPaintingTwentyThree} alt="oil painting" />
-            <img className="photo" src={oilPaintingTwentyFour} alt="oil painting" />
-            <img className="photo" src={oilPaintingTwentyFive} alt="oil painting" />
-          </div>
-        </div>
+      <img className="gallery-img" src={oilPaintingOne} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingTwo} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingThree} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingFour} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingFive} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingSix} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingSeven} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingEight} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingSeven} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingEight} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingNine} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingTen} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingEleven} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingTwelve} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingThirteen} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingFourteen} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingFifteen} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingSixteen} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingSeventeen} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingEighteen} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingNineteen} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingTwenty} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingTwentyOne} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingTwentyTwo} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingTwentyThree} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingTwentyFour} alt="oil painting" />
+      <img className="gallery-img" src={oilPaintingTwentyFive} alt="oil painting" />
     </div>
   )
 }

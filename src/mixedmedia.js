@@ -15,22 +15,17 @@ import mixedMediaEleven from '../public/gallery-photos/mixed-media/mixed-media-e
 const MixedMedia = () => {
   return (
     <div className="gallery">
-      <h2 className="title">Mixed Media - Portals</h2>
-      <div className="collages gallery-photos">
-        <div className="photos-row">
-          <img className="photo" src={mixedMediaOne} alt="mixed-media" />
-          <img className="photo" src={mixedMediaTwo} alt="mixed-media" />
-          <img className="photo" src={mixedMediaThree} alt="mixed-media" />
-          <img className="photo" src={mixedMediaFour} alt="mixed-media" />
-          <img className="photo" src={mixedMediaFive} alt="mixed-media" />
-          <img className="photo" src={mixedMediaSix} alt="mixed-media" />
-          <img className="photo" src={mixedMediaSeven} alt="mixed-media" />
-          <img className="photo" src={mixedMediaEight} alt="mixed-media" />
-          <img className="photo" src={mixedMediaNine} alt="mixed-media" />
-          <img className="photo" src={mixedMediaTen} alt="mixed-media" />
-          <img className="photo" src={mixedMediaEleven} alt="mixed-media" />
-        </div>
-      </div>
+      <img className="gallery-img" src={mixedMediaOne} alt="mixed-media" />
+      <img className="gallery-img" src={mixedMediaTwo} alt="mixed-media" />
+      <img className="gallery-img" src={mixedMediaThree} alt="mixed-media" />
+      <img className="gallery-img" src={mixedMediaFour} alt="mixed-media" />
+      <img className="gallery-img" src={mixedMediaFive} alt="mixed-media" />
+      <img className="gallery-img" src={mixedMediaSix} alt="mixed-media" />
+      <img className="gallery-img" src={mixedMediaSeven} alt="mixed-media" />
+      <img className="gallery-img" src={mixedMediaEight} alt="mixed-media" />
+      <img className="gallery-img" src={mixedMediaNine} alt="mixed-media" />
+      <img className="gallery-img" src={mixedMediaTen} alt="mixed-media" />
+      <img className="gallery-img" src={mixedMediaEleven} alt="mixed-media" />
     </div>
   )
 }

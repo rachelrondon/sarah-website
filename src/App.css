@@ -15,6 +15,12 @@
   justify-content: center;
 }
 
+.App .gallery .gallery-img {
+  width: 29rem;
+  height: 41rem;
+  margin: 5rem;
+}
+
 .App .gallery .main-gallery-photo img {
   width: 29rem;
   height: 41rem;
