@@ -3,6 +3,53 @@
   background-color: #282D30;
 }
 
+.App .content-wrapper-callout {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(233, 206, 176);
+  padding-right: 4vw;
+  padding-left: 4vw;
+  margin: 0 auto;
+  padding: 7rem 4.25rem;
+}
+
+.App .content-wrapper-callout .left-image {
+  height: 754px;
+  width: 942px;
+  z-index: 1;
+  position: relative;
+}
+
+.App .content-wrapper-callout .image-card-wrapper {
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  left: 40rem;
+  width: 51rem;
+  height: 754px;
+  align-items: center;
+  right: 20rem;
+}
+
+.App .content-wrapper-callout .image-card-wrapper .image-card {
+  width: 51rem;
+  height: 38rem;
+  background-color: #ffffff;
+}
+
+.App .content-wrapper-callout .image-card-wrapper .image-card h2 {
+  padding: 6rem;
+}
+
+.App .content-wrapper-callout .image-card-wrapper .image-card .image-card-content {
+  padding: 6rem;
+}
+
+.App .content-wrapper-callout .left-image img {
+  height: 754px;
+  width: 942px;
+}
+
 .App .navbar-links {
   color: #f48847;
   display: flex;
@@ -181,8 +228,9 @@
   text-align: center;
 }
 
+
 .App .landing-page .content-wrapper {
-  padding: 15rem;
+  padding: 7rem 4rem;
 }
 
 .App .landing-page .content-wrapper .content {
@@ -212,6 +260,11 @@
   font-style: italic;
 }
 
+.App .content-wrapper .left-image {
+  position: absolute;
+  z-index: 1;
+}
+
 .App .content-wrapper .content-wrapper-card {
   display: flex;
   flex-direction: row;
@@ -237,7 +290,7 @@
 .App .content-wrapper .content-wrapper-card .image-card-wrapper .image-card {
   width: 38rem;
   height: 32rem;
-  color: #ffffff;
+  color: #000000;
 }
 
 .App .landing-page .content .h1 {
