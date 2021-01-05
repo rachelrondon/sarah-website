@@ -255,49 +255,46 @@
   font-weight: lighter;
 }
 
-/* alphabet order */
-
 .App .landing-page .gallery {
-  position: relative;
-  text-align: center;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  position: relative;
+  text-align: center;
   width: 100%;
 }
 
 .App .landing-page .img-container-one {
-  width: 32rem;
   height: 36rem;
+  width: 32rem;
 }
 
 .App .landing-page .img-container-one img {
-  width: 32rem;
   height: 36rem;
+  width: 32rem;
 }
 
 .App .landing-page .img-container-two {
-  width: 284px;
   height: 315px;
+  width: 284px;
 }
 
 .App .landing-page .img-container-two img {
-  width: 17rem;
   height: 19rem;
+  width: 17rem;
 }
 
 .App .landing-page .gallery .gallery-title {
-  position: absolute;
   color: #ffffff;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Spartan', sans-serif;
-  font-weight: 100;
-  font-size: 2rem;
   display: flex;
   flex-direction: row;
+  font-family: 'Spartan', sans-serif;
   flex-wrap: wrap;
+  font-size: 2rem;
+  font-weight: 100;
+  left: 50%;
+  position: absolute;
+  top: 50%;
 }
 
 .App .landing-page .gallery .gallery-photo {
@@ -305,21 +302,21 @@
   color: #ffffff;
   font-family: 'Spartan', sans-serif;
   font-weight: 100;
-  width: 78rem;
   height: 53.25rem;
   position: relative;
   text-align: center;
   top: 4vw;
+  width: 78rem;
 }
 
 .App .landing-page .landing-page-video-div {
-  width: 100%;
   height: auto;
+  width: 100%;
 }
 
 .App .landing-page .langing-page-video {
+  height: auto;
   width: 100%;
-  height:auto;
 }
 /* end of styling for Sarah's website */
 
@@ -332,70 +329,49 @@
 
 .App .photos-page .photos {
   display: flex;
-  display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
   flex-direction: column;
 }
 
 .App .photos-page .photos .photos-row {
   display: flex;
-  display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
   flex-direction: row;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
   justify-content: space-around;
-  width: 60rem;
+  margin-bottom: 5rem;
   max-height: 53rem;
+  margin-bottom: 5rem;
+  width: 60rem;
 }
 
 .App .photos-page {
-  display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -ms-flexbox;
-  flex-direction: column;
-  text-align: center;
-  margin-top: 5rem;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  text-align: center;
 }
 
 .App .photos-page .photos-row .photo {
-  width: 100%;
   height: auto;
+  width: 100%;
 }
 
 @media (min-width: 1024px) {
   @media not all and (min-resolution:.001dpcm) {
   @media {
     .App .photos-page .photos-row .rotate{
-      -webkit-transform:rotate(90deg);
-      -moz-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-      -o-transform: rotate(90deg);
       transform: rotate(90deg);
       margin-top: 3.75rem;
     }
   }}
 }
 
-
 .registry {
   display: flex;
-  display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
   flex-direction: column;
   list-style-type: none;
   margin: 0 auto;
-  text-align: center;
   margin-top: 10rem;
+  text-align: center;
 }
 
 .registry .details {
@@ -403,60 +379,46 @@
 }
 
 .registry ul {
-  list-style-type: none;
-  font-family: 'Roboto Condensed', sans-serif;
   color: #041e42;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.5rem;
+  list-style-type: none;
   padding-left: 0;
 }
 
 .photos {
   display: flex;
-  display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
   flex-direction: row;
 }
 
 .photos .photos-row {
   display: flex;
-  display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
   flex-direction: column;
   padding: 5rem;
 }
 
 .photos-page .photos-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin-bottom: 5rem;
   margin-top: 5rem;
-  display: flex;
-  display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
-  flex-direction: row;
   width: 60rem;
-  justify-content: space-between;
 }
 
 .registry ul li {
-  margin-top: 1rem;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .App .nav-bar .names {
-  font-size: 4.5rem;
   display: flex;
-  display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
   flex-direction: column;
+  font-size: 4.5rem;
   margin: 1rem;
 }
+
+/* alphabetical order */ 
 
 .App .landing-page .names  {
   display: flex;
