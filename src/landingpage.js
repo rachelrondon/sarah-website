@@ -47,7 +47,7 @@ export default function LandingPage() {
               </div>
               <div className="image-card-wrapper">
                 <div className="image-card">
-                  <h2>About Sarah Rondon</h2>
+                  <h2>About The Artist</h2>
                   <p className="image-card-content">Sarah Rondon graduated from SUNY New Paltz with a Bachelors of Fine Arts</p>
                 </div>
             </div>

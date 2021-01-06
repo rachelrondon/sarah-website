@@ -7,24 +7,28 @@ const Gallery = () => {
   return (
     <div className="gallery">
       <a className="main-gallery-photo">
-        <div className="gallery-photo-wrapper">
           <img src={verticalGalleryImg}></img>
-        </div>
+          <div className="gallery-txt">
+            <p className="gallery-title">Ceramics</p>
+          </div>
       </a>
       <a className="main-gallery-photo">
-        <div className="gallery-photo-wrapper">
           <img src={verticalGalleryImgTwo}></img>
-        </div>
+          <div className="gallery-txt">
+            <p className="gallery-title">Ceramics</p>
+          </div>
       </a>
       <a className="main-gallery-photo">
-        <div className="gallery-photo-wrapper">
           <img src={verticalGalleryImg}></img>
-        </div>
+          <div className="gallery-txt">
+            <p className="gallery-title">Ceramics</p>
+          </div>
       </a>
       <a className="main-gallery-photo">
-        <div className="gallery-photo-wrapper">
-          <img src={verticalGalleryImgTwo}></img>
-        </div>
+          <img src={verticalGalleryImg}></img>
+          <div className="gallery-txt">
+            <p className="gallery-title">Ceramics</p>
+          </div>
       </a>
     </div>
   )

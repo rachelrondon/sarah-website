@@ -21,10 +21,37 @@
   margin: 5rem;
 }
 
+.App .gallery .main-gallery-photo {
+  position: relative;
+}
+
 .App .gallery .main-gallery-photo img {
   width: 29rem;
   height: 41rem;
   margin: 5rem;
+  opacity: 1;
+}
+
+.App .gallery .main-gallery-photo .gallery-txt {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 7%;
+  text-align: center;
+  z-index: 100;
+  transition: opacity ease 200ms;
+  opacity: 1;
+}
+
+.App .gallery .main-gallery-photo .gallery-txt:hover {
+  display: none;
 }
 
 .App .gallery .main-gallery-photo .gallery-photo-txt-wrapper {
