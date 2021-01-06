@@ -13,7 +13,7 @@ const Main = () => {
           </div>
         </div>
         <div className="content-wrapper">
-          <img src={air}></img>
+          <img src={horizontalMainImg}></img>
         </div>
       </div>
     )

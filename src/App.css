@@ -263,10 +263,9 @@
 }
 
 .App .landing-page .content-wrapper .content .content-imgs {
-  align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 5rem;
 }
 
@@ -356,15 +355,28 @@
 }
 
 .App .landing-page .main-img-card {
-  height: auto;
-  width: 50%;
+  width: 754px;
+  height: 833px;
   position: relative;
   margin: 1rem;
 }
 
 .App .landing-page .main-img-card img {
-  height: auto;
-  width: 100%;
+  width: 754px;
+  height: 833px;
+  opacity: 0.9;
+}
+
+.App .landing-page .main-img-card-two {
+  width: 416px;
+  height: 460px;
+  position: relative;
+  margin: 1rem;
+}
+
+.App .landing-page .main-img-card-two img {
+  width: 416px;
+  height: 460px;
   opacity: 0.9;
 }
 
