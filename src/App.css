@@ -1,6 +1,6 @@
 /* styling for Sarah Rondon's website */
 .App {
-  background-color: #282D30;
+  background-color: #ffffff;
 }
 
 .App .gallery {
@@ -122,6 +122,20 @@
 .App .content-wrapper-callout .left-image img {
   height: 754px;
   width: 942px;
+}
+
+.App .main {
+  height: 100vh;
+}
+
+.App .main-gallery {
+  height: 100vh;
+}
+
+.App .main-about {
+  height: 100vh;
+  margin-top: 10rem;
+  margin-bottom: 10rem; 
 }
 
 .App .navbar-links {
@@ -352,8 +366,8 @@
 /* end of styling for Sarah's website */
 
 .App .nav-bar .MuiAppBar-colorPrimary {
-  background-color:#282D30;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #282D30;
   margin: 0;
 }
 
@@ -478,7 +492,7 @@
 
 .App .nav-bar .MuiToolbar-root {
   align-items: center;
-  background-color: #282D30;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -537,7 +551,7 @@
 
 .App .footer-wrapper {
   align-items: center;
-  background-color: #282D30;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   height: 19rem;
