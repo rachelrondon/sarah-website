@@ -6,28 +6,22 @@ import verticalGalleryImgTwo from '../public/main-images/vertical-gallery-img-tw
 const Gallery = () => {
   return (
     <div className="gallery">
-      <a className="main-gallery-photo">
-          <img src={verticalGalleryImg}></img>
-          <div className="gallery-txt">
-            <p className="gallery-title">Ceramics</p>
-          </div>
-      </a>
-      <a className="main-gallery-photo">
+      <a href="/oil-paintings" className="main-gallery-photo" target="_blank">
           <img src={verticalGalleryImgTwo}></img>
           <div className="gallery-txt">
-            <p className="gallery-title">Ceramics</p>
+            <p className="gallery-title">Oil Painting</p>
           </div>
       </a>
-      <a className="main-gallery-photo">
+      <a href="/mixed-media" className="main-gallery-photo" target="_blank">
           <img src={verticalGalleryImg}></img>
           <div className="gallery-txt">
-            <p className="gallery-title">Ceramics</p>
+            <p className="gallery-title">Mixed Media</p>
           </div>
       </a>
-      <a className="main-gallery-photo">
+      <a href="/collage" className="main-gallery-photo" target="_blank">
           <img src={verticalGalleryImg}></img>
           <div className="gallery-txt">
-            <p className="gallery-title">Ceramics</p>
+            <p className="gallery-title">Collage</p>
           </div>
       </a>
     </div>

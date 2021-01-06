@@ -6,7 +6,7 @@ const Main = () => {
         <div className="content-wrapper">
           <div className="content">
             <h1 className="h1">Sarah Rondon</h1>
-            <p>Ceramics, Painting, and Sketch Portfolio</p>
+            <p>Oil Paintings, Collage, and Mixed Media Portfolio</p>
           </div>
         </div>
       </div>

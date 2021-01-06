@@ -135,7 +135,7 @@
 .App .main-about {
   height: 100vh;
   margin-top: 10rem;
-  margin-bottom: 10rem; 
+  margin-bottom: 10rem;
 }
 
 .App .navbar-links {
@@ -543,6 +543,10 @@
   top: 0;
   width: 100%;
   z-index: 9999;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .App .nav-wrapper {

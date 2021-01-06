@@ -110,12 +110,6 @@ const NavBar = () => {
               <div className="navbar-links">
                 <div className="links">
                   <Typography className="link">
-                    <a href="/shop">Shop</a>
-                  </Typography>
-                  <Typography className="link">
-                    <a href="/about">About</a>
-                  </Typography>
-                  <Typography className="link">
                     <a target="_blank" href="https://sarahrondon.blogspot.com/?m=1">Blog</a>
                   </Typography>
                   <Typography className="link">
@@ -140,12 +134,6 @@ const NavBar = () => {
               </IconButton>
             </div>
             <List className="mobile-nav-list">
-              <ListItem>
-                  <a href="/shop">Shop</a>
-              </ListItem>
-              <ListItem>
-                  <a href="/about">About</a>
-              </ListItem>
               <ListItem>
                   <a href="/">Blog</a>
               </ListItem>
