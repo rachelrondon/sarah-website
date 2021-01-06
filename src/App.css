@@ -15,6 +15,32 @@
   justify-content: center;
 }
 
+.App .main-about {
+  background-color: #e9ceb0;
+}
+
+.App .main-about .content-wrapper .main-about-content {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.App .main-about .content-wrapper .main-about-content .main-about-content-txt {
+  width: auto;
+  position: absolute;
+  z-index: 2;
+  background-color: #ffffff;
+  left: 40rem;
+  padding: 10rem;
+}
+
+.App .main-about .content-wrapper .main-about-content img {
+  width: 50%;
+  height: auto;
+  z-index: 1;
+  position: relative;
+}
+
 .App .main {
   display: flex;
   flex-direction: column;
@@ -134,11 +160,6 @@
 .App .content-wrapper-callout .left-image img {
   height: 754px;
   width: 942px;
-}
-
-.App .main-about {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
 }
 
 .App .navbar-links {
@@ -322,7 +343,7 @@
   height: auto;
   width: 50%;
   position: relative;
-  margin: 1rem; 
+  margin: 1rem;
 }
 
 .App .landing-page .main-img-card img {

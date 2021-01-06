@@ -4,18 +4,17 @@ import verticalGalleryImgTwo from '../public/main-images/vertical-gallery-img-tw
 const MainAbout = () => {
     return(
       <div className="main-about">
-        <div className="content-wrapper-callout">
-            <div className="left-image">
-              <img src={verticalGalleryImgTwo}></img>
+        <div className="content-wrapper">
+          <div className="main-about-content">
+            <img src={verticalGalleryImgTwo} alt="blank"></img>
+            <div className="main-about-content-txt">
+              <h2>About the Artist</h2>
+              <p>Sarah Rondon graduated from SUNY New Paltz with a Bachelor of Fine Arts</p>
+              <p>Sarah specializes in ceramics, mixed media, and oil paintings</p>
             </div>
-            <div className="image-card-wrapper">
-              <div className="image-card">
-                <h2>About The Artist</h2>
-                <p className="image-card-content">Sarah Rondon graduated from SUNY New Paltz with a Bachelors of Fine Arts</p>
-              </div>
           </div>
         </div>
-      </div> 
+      </div>
     )
   }
 
