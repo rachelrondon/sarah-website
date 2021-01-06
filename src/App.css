@@ -29,7 +29,15 @@
   width: 29rem;
   height: 41rem;
   margin: 5rem;
+  opacity: 0.9;
+}
+
+.App .gallery .main-gallery-photo:hover img {
   opacity: 1;
+}
+
+.App .gallery .main-gallery-photo:hover .gallery-title {
+  display: none;
 }
 
 .App .gallery .main-gallery-photo .gallery-txt {
@@ -47,11 +55,7 @@
   text-align: center;
   z-index: 100;
   transition: opacity ease 200ms;
-  opacity: 1;
-}
-
-.App .gallery .main-gallery-photo .gallery-txt:hover {
-  display: none;
+  opacity: 0.8;
 }
 
 .App .gallery .main-gallery-photo .gallery-photo-txt-wrapper {
