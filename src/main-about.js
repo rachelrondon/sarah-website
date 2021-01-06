@@ -10,8 +10,7 @@ const MainAbout = () => {
             <img src={collagePhoto} alt="blank"></img>
             <div className="main-about-content-txt">
               <h2>About the Artist</h2>
-              <p>Sarah Rondon graduated from SUNY New Paltz with a Bachelor of Fine Arts</p>
-              <p>Sarah specializes in ceramics, mixed media, and oil paintings</p>
+              <p>Ceramics, mixed media, and oil paintings portfolio</p>
             </div>
           </div>
         </div>

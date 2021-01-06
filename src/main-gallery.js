@@ -14,7 +14,7 @@ const MainGallery = () => {
       <div className="main-gallery">
         <div className="content-wrapper">
           <div className="content">
-            <h2 className="gallery-title">Gallery</h2>
+            <h2 className="title">Gallery</h2>
             <p>Photographs of ceramics, painting, and mixed-media</p>
 
             <div className="content-imgs">

@@ -6,11 +6,6 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 1400px;
-  padding-bottom: 59.07px;
-  padding-left: 107.4px;
-  padding-right: 107.4px;
-  padding-top: 59.07px;
   justify-content: center;
 }
 
@@ -52,6 +47,7 @@
   height: auto;
 }
 
+
 .App .gallery .gallery-img {
   width: 29rem;
   height: 41rem;
@@ -60,17 +56,23 @@
 
 .App .gallery .main-gallery-photo {
   position: relative;
+  width: 40%;
+  text-align: center;
+  padding: 3rem;
 }
 
 .App .gallery .main-gallery-photo img {
-  width: 29rem;
-  height: 41rem;
-  margin: 5rem;
+  width: 100%;
+  height: auto;
   opacity: 0.9;
 }
 
 .App .gallery .main-gallery-photo:hover img {
   opacity: 1;
+}
+
+.App .gallery .main-gallery-photo .gallery-title {
+  width: fit-content;
 }
 
 .App .gallery .main-gallery-photo:hover .gallery-title {
@@ -79,6 +81,10 @@
 
 
 .App .gallery .main-gallery-photo .gallery-txt {
+  align-items: center;
+  color: #000000;
+  font-size: calc(2.2 * 1rem);
+  font-weight: bold;
   position: absolute;
   top: 0;
   right: 0;
@@ -94,6 +100,12 @@
   z-index: 100;
   transition: opacity ease 200ms;
   opacity: 0.8;
+}
+
+.App .main-gallery .gallery-txt {
+  color: #000000;
+  font-size: calc(2.2 * 1rem);
+  font-weight: bold;
 }
 
 .App .gallery .main-gallery-photo .gallery-photo-txt-wrapper {
@@ -269,16 +281,19 @@
   font-size: 1.3rem;
 }
 
-.App .landing-page .content-wrapper .content .gallery-title {
-  color: #65bdd2;
-  font-size: calc((2.8 - 1) * 1.2vw + 1rem);
+.App .landing-page .content-wrapper .content .title {
+  color:#65bdd2;
+  font-size: calc(2.2 * 1rem);
+  font-weight: bold;
 }
 
 .App .landing-page .content-wrapper .content .gallery-content {
   color: #ffffff;
   font-size: calc((1.2 - 1) * 1.2vw + 1rem);
   font-style: italic;
+  font-weight: bold;
 }
+
 
 .App .content-wrapper .left-image {
   position: absolute;
@@ -361,7 +376,7 @@
   display: none;
 }
 
-.App .landing-page .main-img-card .gallery-txt {
+.App .landing-page .content-wrapper .content .main-img-card .gallery-txt {
   position: absolute;
   top: 0;
   right: 0;
@@ -377,6 +392,7 @@
   z-index: 100;
   transition: opacity ease 200ms;
   opacity: 0.8;
+  color: #000000;
 }
 
 .App .landing-page .gallery .gallery-title {
