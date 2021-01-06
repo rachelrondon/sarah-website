@@ -108,6 +108,12 @@
   font-weight: bold;
 }
 
+.App .main-gallery .content-wrapper .content-imgs .right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .App .gallery .main-gallery-photo .gallery-photo-txt-wrapper {
   opacity: 1;
 }
@@ -358,7 +364,6 @@
   width: 754px;
   height: 833px;
   position: relative;
-  margin: 1rem;
 }
 
 .App .landing-page .main-img-card img {

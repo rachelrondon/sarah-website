@@ -21,9 +21,12 @@ const MainGallery = () => {
                 <a href="/oil-paintings" className="main-img-card" target="_blank">
                   <img src={mixedMediaEleven}></img>
                 </a>
-                <a href="/oil-paintings" className="main-img-card-two" target="_blank">
-                  <img src={unknownHistoryCollage}></img>
-                </a>
+                <div className="right-column">
+                  <a href="/oil-paintings" className="main-img-card-two" target="_blank">
+                    <img src={unknownHistoryCollage}></img>
+                  </a>
+                  <a href="/gallery">View Art Gallery</a>
+                </div>
             </div>
           </div>
         </div>
