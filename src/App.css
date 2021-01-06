@@ -318,66 +318,28 @@
   width: 100%;
 }
 
-.App .landing-page .oil-paintings-wrapper {
-  height: auto;
-  width: 100%;
-  position: relative;
-}
-
-.App .landing-page .oil-paintings-wrapper img {
+.App .landing-page .main-img-card {
   height: auto;
   width: 50%;
-  opacity: 0.9;
-}
-
-.App .landing-page .oil-paintings-wrapper:hover img {
-  opacity: 1;
-}
-
-.App .landing-page .oil-paintings-wrapper:hover .gallery-title {
-  display: none;
-}
-
-.App .landing-page .oil-paintings-wrapper .gallery-txt {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: auto;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 7%;
-  text-align: center;
-  z-index: 100;
-  transition: opacity ease 200ms;
-  opacity: 0.8;
-}
-
-
-.App .landing-page .collage-wrapper {
-  height: 50%;
-  width: inherit;
   position: relative;
+  margin: 1rem; 
 }
 
-.App .landing-page .collage-wrapper img {
+.App .landing-page .main-img-card img {
   height: auto;
   width: 100%;
   opacity: 0.9;
 }
 
-.App .landing-page .collage-wrapper:hover img {
+.App .landing-page .main-img-card:hover img {
   opacity: 1;
 }
 
-.App .landing-page .collage-wrapper:hover .gallery-title {
+.App .landing-page .main-img-card:hover .gallery-title {
   display: none;
 }
 
-.App .landing-page .collage-wrapper .gallery-txt {
+.App .landing-page .main-img-card .gallery-txt {
   position: absolute;
   top: 0;
   right: 0;
