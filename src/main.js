@@ -1,4 +1,5 @@
 import React from 'react';
+import horizontalMainImg from '../public/main-images/floral.jpg';
 
 const Main = () => {
     return(
@@ -8,6 +9,9 @@ const Main = () => {
             <h1 className="h1">Sarah Rondon</h1>
             <p>Oil Paintings, Collage, and Mixed Media Portfolio</p>
           </div>
+        </div>
+        <div className="content-wrapper">
+          <img src={horizontalMainImg}></img>
         </div>
       </div>
     )

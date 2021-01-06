@@ -15,6 +15,17 @@
   justify-content: center;
 }
 
+.App .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App .main img {
+  width: 100%;
+  height: auto;
+}
+
 .App .gallery .gallery-img {
   width: 29rem;
   height: 41rem;
@@ -39,6 +50,7 @@
 .App .gallery .main-gallery-photo:hover .gallery-title {
   display: none;
 }
+
 
 .App .gallery .main-gallery-photo .gallery-txt {
   position: absolute;
@@ -124,16 +136,7 @@
   width: 942px;
 }
 
-.App .main {
-  height: 100vh;
-}
-
-.App .main-gallery {
-  height: 100vh;
-}
-
 .App .main-about {
-  height: 100vh;
   margin-top: 10rem;
   margin-bottom: 10rem;
 }
@@ -229,8 +232,14 @@
 .App .landing-page .content-wrapper .content .content-imgs {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-top: 5rem;
+}
+
+.App .landing-page .content-wrapper .content .content-imgs .right-column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
 .App .landing-page .content-wrapper .content .img-title {
@@ -309,24 +318,81 @@
   width: 100%;
 }
 
-.App .landing-page .img-container-one {
-  height: 36rem;
-  width: 32rem;
+.App .landing-page .oil-paintings-wrapper {
+  height: auto;
+  width: 100%;
+  position: relative;
 }
 
-.App .landing-page .img-container-one img {
-  height: 36rem;
-  width: 32rem;
+.App .landing-page .oil-paintings-wrapper img {
+  height: auto;
+  width: 50%;
+  opacity: 0.9;
 }
 
-.App .landing-page .img-container-two {
-  height: 315px;
-  width: 284px;
+.App .landing-page .oil-paintings-wrapper:hover img {
+  opacity: 1;
 }
 
-.App .landing-page .img-container-two img {
-  height: 19rem;
-  width: 17rem;
+.App .landing-page .oil-paintings-wrapper:hover .gallery-title {
+  display: none;
+}
+
+.App .landing-page .oil-paintings-wrapper .gallery-txt {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 7%;
+  text-align: center;
+  z-index: 100;
+  transition: opacity ease 200ms;
+  opacity: 0.8;
+}
+
+
+.App .landing-page .collage-wrapper {
+  height: 50%;
+  width: inherit;
+  position: relative;
+}
+
+.App .landing-page .collage-wrapper img {
+  height: auto;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.App .landing-page .collage-wrapper:hover img {
+  opacity: 1;
+}
+
+.App .landing-page .collage-wrapper:hover .gallery-title {
+  display: none;
+}
+
+.App .landing-page .collage-wrapper .gallery-txt {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 7%;
+  text-align: center;
+  z-index: 100;
+  transition: opacity ease 200ms;
+  opacity: 0.8;
 }
 
 .App .landing-page .gallery .gallery-title {
@@ -544,7 +610,6 @@
   width: 100%;
   z-index: 9999;
   overflow: hidden;
-  position: fixed;
   top: 0;
   width: 100%;
 }

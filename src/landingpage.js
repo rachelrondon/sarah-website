@@ -7,8 +7,8 @@ export default function LandingPage() {
   return (
       <div className="landing-page">
         <Main />
-        <MainAbout />
         <MainGallery />
+        <MainAbout />
     </div>
   )
 }
