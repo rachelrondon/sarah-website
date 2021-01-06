@@ -1,4 +1,4 @@
-/* styling for Sarah Rondon's website */
+#65bdd2/* styling for Sarah Rondon's website */
 .App {
   background-color: #ffffff;
 }
@@ -16,7 +16,7 @@
 }
 
 .App .main-about {
-  background-color: #e9ceb0;
+  background-color: #65bdd2;
 }
 
 .App .main-about .content-wrapper .main-about-content {
@@ -32,6 +32,7 @@
   background-color: #ffffff;
   left: 40rem;
   padding: 10rem;
+  color: #65bdd2;
 }
 
 .App .main-about .content-wrapper .main-about-content img {
@@ -163,7 +164,7 @@
 }
 
 .App .navbar-links {
-  color: #f48847;
+  color: #65bdd2;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -251,6 +252,7 @@
 }
 
 .App .landing-page .content-wrapper .content .content-imgs {
+  align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -269,7 +271,7 @@
 }
 
 .App .landing-page .content-wrapper .content .gallery-title {
-  color: #f48847;
+  color: #65bdd2;
   font-size: calc((2.8 - 1) * 1.2vw + 1rem);
 }
 
@@ -313,7 +315,7 @@
 }
 
 .App .landing-page .content .h1 {
-  color: #f48847;
+  color: #65bdd2;
   display: flex;
   flex-direction: column;
   font-size: calc((4 - 1) * 1.2vw + 1rem);
@@ -613,7 +615,7 @@
 }
 
 .App .footer-wrapper p {
-  color: #f48847;
+  color: #65bdd2;
   font-size: 1.3rem;
 }
 
@@ -630,7 +632,7 @@
 }
 
 .App .nav-bar .MuiToolbar-root .links .link a {
-  color: #f48847;
+  color: #65bdd2;
   font-family: 'Roboto Condensed', sans-serif;
   text-decoration: none;
 }
