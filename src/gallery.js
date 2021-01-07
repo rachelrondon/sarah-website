@@ -12,14 +12,7 @@ const Gallery = () => {
       <div className="main-gallery-photo">
           <img src={verticalGalleryImg}></img>
           <div className="gallery-txt">
-            <p className="gallery-title">Oil Painting</p>
-            <a className="link" href="/oil-paintings" target="_blank">view gallery</a>
-          </div>
-      </div>
-      <div className="main-gallery-photo">
-          <img src={verticalGalleryImgTwo}></img>
-          <div className="gallery-txt">
-            <p className="gallery-title">Mixed Media</p>
+            <p className="gallery-title">MIXED MEDIA</p>
             <a className="link" href="/mixed-media" target="_blank">view gallery</a>
           </div>
       </div>
@@ -28,6 +21,13 @@ const Gallery = () => {
           <div className="gallery-txt">
             <p className="gallery-title">COLLAGE</p>
             <a className="link" href="/collage" target="_blank">view gallery</a>
+          </div>
+      </div>
+      <div className="main-gallery-photo">
+          <img src={verticalGalleryImgTwo}></img>
+          <div className="gallery-txt">
+            <p className="gallery-title">OIL PAINTINGS</p>
+            <a className="link" href="/oil-paintings" target="_blank">view gallery</a>
           </div>
       </div>
     </div>

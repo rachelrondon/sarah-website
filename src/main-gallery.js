@@ -23,8 +23,8 @@ const MainGallery = () => {
                 <div className="main-img-card" target="_blank">
                   <img src={verticalGalleryImgTwo}></img>
                   <div className="gallery-txt">
-                    <p className="gallery-title">OIL PAINTINGS</p>
-                    <a className="link" href="/oil-paintings" target="_blank">view gallery</a>
+                    <p className="gallery-title">MIXED MEDIA</p>
+                    <a className="link" href="/mixed-media" target="_blank">view gallery</a>
                   </div>
                 </div>
                 <div className="right-column">
@@ -38,8 +38,8 @@ const MainGallery = () => {
                   <div className="main-img-card-two">
                     <img src={squareFlowerFour}></img>
                     <div className="gallery-txt">
-                      <p className="gallery-title">MIXED MEDIA</p>
-                      <a className="link" href="/mixed-media" target="_blank">view gallery</a>
+                      <p className="gallery-title">OIL PAINTINGS</p>
+                      <a className="link" href="/oil-paintings" target="_blank">view gallery</a>
                     </div>
                   </div>
                 </div>
