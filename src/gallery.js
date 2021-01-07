@@ -11,21 +11,24 @@ const Gallery = () => {
   return (
     <div className="gallery">
       <a href="/oil-paintings" className="main-gallery-photo" target="_blank">
-          <img src={mainOilPainting}></img>
+          <img src={verticalGalleryImg}></img>
           <div className="gallery-txt">
             <p className="gallery-title">Oil Painting</p>
+            <a className="link" href="/oil-paintings" target="_blank">view gallery</a>
           </div>
       </a>
       <a href="/mixed-media" className="main-gallery-photo" target="_blank">
-          <img src={mixedMediaEight}></img>
+          <img src={verticalGalleryImgTwo}></img>
           <div className="gallery-txt">
             <p className="gallery-title">Mixed Media</p>
+            <a className="link" href="/oil-paintings" target="_blank">view gallery</a>
           </div>
       </a>
       <a href="/collage" className="main-gallery-photo" target="_blank">
-          <img src={unknownHistoryCollage}></img>
+          <img src={verticalGalleryImg}></img>
           <div className="gallery-txt">
-            <p className="gallery-title">Collage</p>
+            <p className="gallery-title">COLLAGE</p>
+            <a className="link" href="/oil-paintings" target="_blank">view gallery</a>
           </div>
       </a>
     </div>

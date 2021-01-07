@@ -51,7 +51,7 @@
 
 .App .main .content {
   padding-bottom: 7rem;
-  padding-top: 7rem; 
+  padding-top: 7rem;
 }
 
 .App .main img {
@@ -76,21 +76,11 @@
 .App .gallery .main-gallery-photo img {
   width: 100%;
   height: auto;
-  opacity: 0.9;
-}
-
-.App .gallery .main-gallery-photo:hover img {
-  opacity: 1;
 }
 
 .App .gallery .main-gallery-photo .gallery-title {
   width: fit-content;
 }
-
-.App .gallery .main-gallery-photo:hover .gallery-title {
-  display: none;
-}
-
 
 .App .gallery .main-gallery-photo .gallery-txt {
   align-items: center;
@@ -99,9 +89,9 @@
   font-weight: bold;
   position: absolute;
   top: 0;
-  right: 0;
-  bottom: 0;
   left: 0;
+  bottom: 0;
+  right: 0; 
   overflow: auto;
   display: flex;
   align-content: center;
@@ -111,7 +101,6 @@
   text-align: center;
   z-index: 100;
   transition: opacity ease 200ms;
-  opacity: 0.8;
 }
 
 .App .main-gallery {
@@ -414,6 +403,28 @@
   display: flex;
   flex-direction: column;
   text-align: left;
+}
+
+.main-gallery-photo .link {
+  font-size: 18px;
+  margin-top: 30px;
+  color: #000000;
+  text-decoration: none;
+  position: relative;
+  font-weight: lighter;
+  width: fit-content;
+}
+
+.main-gallery-photo  .link:after {
+  background-color: #000000;
+  bottom: -7px;
+  height: 1px;
+  content: '';
+  width: 100%;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .App .landing-page .content-wrapper .content .main-img-card-two .gallery-txt .link {
