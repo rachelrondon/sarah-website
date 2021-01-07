@@ -26,7 +26,7 @@ const Gallery = () => {
       <div className="main-gallery-photo">
           <img src={verticalGalleryImgTwo}></img>
           <div className="gallery-txt">
-            <p className="gallery-title">OIL PAINTINGS</p>
+            <p className="gallery-title">OIL PAINTING</p>
             <a className="link" href="/oil-paintings" target="_blank">view gallery</a>
           </div>
       </div>

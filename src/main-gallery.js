@@ -38,7 +38,7 @@ const MainGallery = () => {
                   <div className="main-img-card-two">
                     <img src={squareFlowerFour}></img>
                     <div className="gallery-txt">
-                      <p className="gallery-title">OIL PAINTINGS</p>
+                      <p className="gallery-title">OIL PAINTING</p>
                       <a className="link" href="/oil-paintings" target="_blank">view gallery</a>
                     </div>
                   </div>
