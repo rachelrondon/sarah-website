@@ -15,17 +15,19 @@ import mixedMediaEleven from '../public/gallery-photos/mixed-media/mixed-media-e
 const MixedMedia = () => {
   return (
     <div className="gallery">
-      <img className="gallery-img" src={mixedMediaOne} alt="mixed-media" />
-      <img className="gallery-img" src={mixedMediaTwo} alt="mixed-media" />
-      <img className="gallery-img" src={mixedMediaThree} alt="mixed-media" />
-      <img className="gallery-img" src={mixedMediaFour} alt="mixed-media" />
-      <img className="gallery-img" src={mixedMediaFive} alt="mixed-media" />
-      <img className="gallery-img" src={mixedMediaSix} alt="mixed-media" />
-      <img className="gallery-img" src={mixedMediaSeven} alt="mixed-media" />
-      <img className="gallery-img" src={mixedMediaEight} alt="mixed-media" />
-      <img className="gallery-img" src={mixedMediaNine} alt="mixed-media" />
-      <img className="gallery-img" src={mixedMediaTen} alt="mixed-media" />
-      <img className="gallery-img" src={mixedMediaEleven} alt="mixed-media" />
+      <div className="gallery-imgs">
+        <img src={mixedMediaOne} alt="mixed-media" />
+        <img src={mixedMediaTwo} alt="mixed-media" />
+        <img src={mixedMediaThree} alt="mixed-media" />
+        <img src={mixedMediaFour} alt="mixed-media" />
+        <img src={mixedMediaFive} alt="mixed-media" />
+        <img src={mixedMediaSix} alt="mixed-media" />
+        <img src={mixedMediaSeven} alt="mixed-media" />
+        <img src={mixedMediaEight} alt="mixed-media" />
+        <img src={mixedMediaNine} alt="mixed-media" />
+        <img src={mixedMediaTen} alt="mixed-media" />
+        <img src={mixedMediaEleven} alt="mixed-media" />
+      </div>
     </div>
   )
 }

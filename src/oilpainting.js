@@ -29,33 +29,35 @@ import oilPaintingTwentyFive from '../public/gallery-photos/oil-paintings/IMG_15
 const OilPaintings = () => {
   return (
     <div className="gallery">
-      <img className="gallery-img" src={oilPaintingOne} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingTwo} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingThree} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingFour} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingFive} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingSix} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingSeven} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingEight} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingSeven} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingEight} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingNine} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingTen} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingEleven} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingTwelve} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingThirteen} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingFourteen} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingFifteen} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingSixteen} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingSeventeen} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingEighteen} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingNineteen} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingTwenty} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingTwentyOne} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingTwentyTwo} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingTwentyThree} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingTwentyFour} alt="oil painting" />
-      <img className="gallery-img" src={oilPaintingTwentyFive} alt="oil painting" />
+      <div className="gallery-imgs">
+        <img src={oilPaintingOne} alt="oil painting" />
+        <img src={oilPaintingTwo} alt="oil painting" />
+        <img src={oilPaintingThree} alt="oil painting" />
+        <img src={oilPaintingFour} alt="oil painting" />
+        <img src={oilPaintingFive} alt="oil painting" />
+        <img src={oilPaintingSix} alt="oil painting" />
+        <img src={oilPaintingSeven} alt="oil painting" />
+        <img src={oilPaintingEight} alt="oil painting" />
+        <img src={oilPaintingSeven} alt="oil painting" />
+        <img src={oilPaintingEight} alt="oil painting" />
+        <img src={oilPaintingNine} alt="oil painting" />
+        <img src={oilPaintingTen} alt="oil painting" />
+        <img src={oilPaintingEleven} alt="oil painting" />
+        <img src={oilPaintingTwelve} alt="oil painting" />
+        <img src={oilPaintingThirteen} alt="oil painting" />
+        <img src={oilPaintingFourteen} alt="oil painting" />
+        <img src={oilPaintingFifteen} alt="oil painting" />
+        <img src={oilPaintingSixteen} alt="oil painting" />
+        <img src={oilPaintingSeventeen} alt="oil painting" />
+        <img src={oilPaintingEighteen} alt="oil painting" />
+        <img src={oilPaintingNineteen} alt="oil painting" />
+        <img src={oilPaintingTwenty} alt="oil painting" />
+        <img src={oilPaintingTwentyOne} alt="oil painting" />
+        <img src={oilPaintingTwentyTwo} alt="oil painting" />
+        <img src={oilPaintingTwentyThree} alt="oil painting" />
+        <img src={oilPaintingTwentyFour} alt="oil painting" />
+        <img src={oilPaintingTwentyFive} alt="oil painting" />
+      </div>
     </div>
   )
 }

@@ -50,12 +50,31 @@
   height: auto;
 }
 
-
-.App .gallery .gallery-img {
-  width: 29rem;
-  height: 41rem;
-  margin: 5rem;
+.App .gallery .gallery-imgs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.App .gallery .gallery-imgs img {
+  width: 100%;
+  height: auto;
+  padding: 3rem;
+  width: 40%;
+}
+/*
+.App .gallery .main-gallery-photo {
+  position: relative;
+  width: 40%;
+  text-align: center;
+  padding: 3rem;
+}
+
+.App .gallery .main-gallery-photo img {
+  width: 100%;
+  height: auto;
+} */
 
 .App .gallery .main-gallery-photo {
   position: relative;
