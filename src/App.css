@@ -12,23 +12,24 @@
 .App .main-about {
   display: flex;
   flex-direction: row;
-  background-color: #f0dcc9;
   padding: 7rem 4rem;
   align-items: center;
+  background-color: #f5f5f7;
 }
 
 .App .main-about img {
   z-index: 1;
   position: relative;
+  width: 50%;
+  margin: 0.15rem;
 }
 
 .App .main-about .main-about-content {
   background-color: #ffffff;
   z-index: 2;
-  margin: 7rem 4rem;
   padding: 7rem 4rem;
-  position: absolute;
-  left: 45rem;
+  width: 50%;
+  margin: 0.15rem;
 }
 
 .App .main {
@@ -128,7 +129,6 @@
 .App .main-gallery .content-wrapper .content-imgs .right-column {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .App .gallery .main-gallery-photo .gallery-photo-txt-wrapper {
@@ -290,7 +290,8 @@
 .App .landing-page .content-wrapper .content .content-imgs .right-column {
   display: flex;
   flex-direction: column;
-  width: auto;
+  width: 50%;
+  margin: 0.15rem;
 }
 
 .App .landing-page .content-wrapper .content .img-title {
@@ -373,25 +374,26 @@
 }
 
 .App .landing-page .main-img-card {
-  width: 705px;
-  height: 1000px;
+  width: 50%;
+  height: auto;
   position: relative;
+  margin: 0.15rem;
 }
 
 .App .landing-page .main-img-card img {
-  width: 705px;
-  height: 1000px;
+  width: 100%;
+  height: auto;
 }
 
 .App .landing-page .main-img-card-two {
-  width: 705px;
-  height: 485px;
+  width: 100%;
+  height: auto;
   position: relative;
 }
 
 .App .landing-page .main-img-card-two img {
-  width: 705px;
-  height: 485px;
+  width: 100%;
+  height: auto;
   opacity: 0.9;
 }
 

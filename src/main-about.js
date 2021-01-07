@@ -12,10 +12,6 @@ const MainAbout = () => {
           <h2>About The Artist</h2>
           <p>Sarah Rondon graduated from SUNY New Paltz with a Bachelors of Fine Arts. Sarah specializes in ceramics, mixed media, and oil paintings.</p>
           <p>Sarah Rondon graduated from SUNY New Paltz with a Bachelors of Fine Arts. Sarah specializes in ceramics, mixed media, and oil paintings.</p>
-          <p>Sarah Rondon graduated from SUNY New Paltz with a Bachelors of Fine Arts. Sarah specializes in ceramics, mixed media, and oil paintings.</p>
-          <p>Sarah Rondon graduated from SUNY New Paltz with a Bachelors of Fine Arts. Sarah specializes in ceramics, mixed media, and oil paintings.</p>
-          <p>Sarah Rondon graduated from SUNY New Paltz with a Bachelors of Fine Arts. Sarah specializes in ceramics, mixed media, and oil paintings.</p>
-          <p>Sarah Rondon graduated from SUNY New Paltz with a Bachelors of Fine Arts. Sarah specializes in ceramics, mixed media, and oil paintings.</p>
           </div>
         </div>
     )
