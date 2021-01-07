@@ -31,8 +31,8 @@ const MainGallery = () => {
                   <div className="main-img-card-two">
                     <img src={squareFlowerTwo}></img>
                     <div className="gallery-txt">
-                      <p className="gallery-title">CERAMICS</p>
-                      <a className="link" href="/ceramics" target="_blank">view gallery</a>
+                      <p className="gallery-title">COLLAGE</p>
+                      <a className="link" href="/collage" target="_blank">view gallery</a>
                     </div>
                   </div>
                   <div className="main-img-card-two">
