@@ -11,9 +11,7 @@
 
 .App .main-about {
   background-color: #f0dcc9;
-  padding-bottom: 7rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding: 7rem 4rem;
 }
 
 .App .main-about .content-wrapper .main-about-content {
@@ -28,9 +26,9 @@
   position: absolute;
   z-index: 2;
   background-color: #ffffff;
-  left: 50rem;
   padding: 7rem;
   color: #000000;
+  opacity: 1; 
 }
 
 .App .main-about .content-wrapper .main-about-content img {
@@ -91,7 +89,7 @@
   top: 0;
   left: 0;
   bottom: 0;
-  right: 0; 
+  right: 0;
   overflow: auto;
   display: flex;
   align-content: center;
