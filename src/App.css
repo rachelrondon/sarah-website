@@ -986,22 +986,25 @@
   .App .landing-page .main-img-card {
     width: 100%;
     margin-right: 0;
-    margin-bottom: 7rem;
+    padding-bottom: 4rem;
   }
   .App .landing-page .content-wrapper .content .content-imgs .right-column {
     width: 100%;
   }
   .App .landing-page .content-wrapper .content .content-imgs .right-column .main-img-card-two {
     width: 100%;
-    margin-bottom: 7rem;
+    padding-bottom: 4rem;
   }
   .App .main-about img {
     width: 100%;
-    margin-bottom: 7rem;
+    margin-bottom: 4rem;
   }
   .App .main-about .main-about-content {
     width: auto;
-    margin-bottom: 7rem;
+    padding-bottom: 4rem;
+  }
+  .App .main {
+    padding-bottom: 4rem;
   }
 }
 
