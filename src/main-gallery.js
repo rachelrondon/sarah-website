@@ -8,6 +8,11 @@ import mixedMediaEight from '../public/gallery-photos/mixed-media/mixed-media-ei
 import mainOilPainting from '../public/gallery-photos/oil-paintings/ACS_0178.jpg';
 import unknownHistoryCollage from '../public/gallery-photos/collage-images/unknown-history.jpg';
 import mixedMediaEleven from '../public/gallery-photos/mixed-media/mixed-media-eleven.jpg';
+import squareFlower from '../public/main-images/square-flower.jpg';
+import squareFlowerTwo from '../public/main-images/square-flower-two.jpg';
+import squareFlowerThree from '../public/main-images/square-flower-three.jpg';
+import squareFlowerFour from '../public/main-images/square-flower-four.jpg';
+
 
 const MainGallery = () => {
     return(
@@ -24,14 +29,14 @@ const MainGallery = () => {
                 </div>
                 <div className="right-column">
                   <div href="/oil-paintings" className="main-img-card-two" target="_blank">
-                    <img src={verticalGalleryImgTwo}></img>
+                    <img src={squareFlowerTwo}></img>
                     <div className="gallery-txt">
                       <p className="gallery-title">CERAMICS</p>
                       <a className="link" href="/ceramics" target="_blank">view gallery</a>
                     </div>
                   </div>
                   <div href="/oil-paintings" className="main-img-card-two" target="_blank">
-                    <img src={verticalGalleryImgTwo}></img>
+                    <img src={squareFlowerFour}></img>
                     <div className="gallery-txt">
                       <p className="gallery-title">MIXED MEDIA</p>
                       <a className="link" href="/mixed-media" target="_blank">view gallery</a>
