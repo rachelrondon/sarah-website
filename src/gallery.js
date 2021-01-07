@@ -30,13 +30,6 @@ const Gallery = () => {
             <a className="link" href="/collage" target="_blank">view gallery</a>
           </div>
       </div>
-      <div className="main-gallery-photo">
-          <img src={verticalGalleryImg}></img>
-          <div className="gallery-txt">
-            <p className="gallery-title">PHOTOGRAPHY</p>
-            <a className="link" href="" target="_blank">view gallery</a>
-          </div>
-      </div>
     </div>
   )
 }
