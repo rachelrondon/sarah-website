@@ -28,14 +28,14 @@ const MainGallery = () => {
                   </div>
                 </div>
                 <div className="right-column">
-                  <div href="/oil-paintings" className="main-img-card-two" target="_blank">
+                  <div className="main-img-card-two">
                     <img src={squareFlowerTwo}></img>
                     <div className="gallery-txt">
                       <p className="gallery-title">CERAMICS</p>
                       <a className="link" href="/ceramics" target="_blank">view gallery</a>
                     </div>
                   </div>
-                  <div href="/oil-paintings" className="main-img-card-two" target="_blank">
+                  <div className="main-img-card-two">
                     <img src={squareFlowerFour}></img>
                     <div className="gallery-txt">
                       <p className="gallery-title">MIXED MEDIA</p>
