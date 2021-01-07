@@ -9,7 +9,7 @@ const MainAbout = () => {
       <div className="main-about">
         <img src={squareFlowerThree} alt="_blank"></img>
         <div className="main-about-content">
-          <h2>About The Artist</h2>
+          <h2>ABOUT THE ARTIST</h2>
           <p>Sarah Rondon graduated from SUNY New Paltz</p>
         </div>
       </div>

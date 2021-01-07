@@ -10,7 +10,7 @@ const Main = () => {
       <div className="main">
         <div className="content-wrapper">
           <div className="content">
-            <h1 className="h1">Sarah Rondon</h1>
+            <h1 className="h1">SARAH RONDON</h1>
             <p>Mixed Media, Collage, Oil Painting Portfolio</p>
           </div>
         </div>
