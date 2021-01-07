@@ -11,6 +11,9 @@ const MainAbout = () => {
             <div className="main-about-content-txt">
               <h2>About the Artist</h2>
               <p>Ceramics, mixed media, and oil paintings portfolio</p>
+              <p>Ceramics, mixed media, and oil paintings portfolio</p>
+              <p>Ceramics, mixed media, and oil paintings portfolio</p>
+              <p>Ceramics, mixed media, and oil paintings portfolio</p>
             </div>
           </div>
         </div>

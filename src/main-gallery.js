@@ -14,18 +14,29 @@ const MainGallery = () => {
       <div className="main-gallery">
         <div className="content-wrapper">
           <div className="content">
-            <h2 className="title">Gallery</h2>
-            <p>Photographs of ceramics, painting, and mixed-media</p>
-
             <div className="content-imgs">
-                <a href="/oil-paintings" className="main-img-card" target="_blank">
-                  <img src={mixedMediaEleven}></img>
-                </a>
+                <div className="main-img-card" target="_blank">
+                  <img src={verticalGalleryImgTwo}></img>
+                  <div className="gallery-txt">
+                    <p className="gallery-title">OIL PAINTINGS</p>
+                    <a className="link" href="/oil-paintings" target="_blank">view gallery</a>
+                  </div>
+                </div>
                 <div className="right-column">
                   <a href="/oil-paintings" className="main-img-card-two" target="_blank">
-                    <img src={unknownHistoryCollage}></img>
+                    <img src={verticalGalleryImgTwo}></img>
+                    <div className="gallery-txt">
+                      <p className="gallery-title">CERAMICS</p>
+                      <a className="link" href="/ceramics" target="_blank">view gallery</a>
+                    </div>
                   </a>
-                  <a href="/gallery">View Art Gallery</a>
+                  <a href="/oil-paintings" className="main-img-card-two" target="_blank">
+                    <img src={verticalGalleryImgTwo}></img>
+                    <div className="gallery-txt">
+                      <p className="gallery-title">MIXED MEDIA</p>
+                      <a className="link" href="/mixed-media" target="_blank">view gallery</a>
+                    </div>
+                  </a>
                 </div>
             </div>
           </div>
