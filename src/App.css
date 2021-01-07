@@ -11,6 +11,9 @@
 
 .App .main-about {
   background-color: #f0dcc9;
+  padding-bottom: 7rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .App .main-about .content-wrapper .main-about-content {
@@ -27,7 +30,7 @@
   background-color: #ffffff;
   left: 50rem;
   padding: 7rem;
-  color: #65bdd2;
+  color: #000000;
 }
 
 .App .main-about .content-wrapper .main-about-content img {
@@ -41,6 +44,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 7rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.App .main .content {
+  padding-bottom: 7rem;
+  padding-top: 7rem; 
 }
 
 .App .main img {
@@ -101,6 +112,12 @@
   z-index: 100;
   transition: opacity ease 200ms;
   opacity: 0.8;
+}
+
+.App .main-gallery {
+  padding-bottom: 7rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .App .main-gallery .gallery-txt {
@@ -182,7 +199,7 @@
 }
 
 .App .navbar-links {
-  color: #65bdd2;
+  color: #000000;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -261,10 +278,6 @@
   text-align: center;
 }
 
-.App .landing-page .content-wrapper {
-  padding: 7rem 4rem;
-}
-
 .App .landing-page .content-wrapper .content {
   text-align: center;
 }
@@ -287,7 +300,7 @@
 }
 
 .App .landing-page .content-wrapper .content .title {
-  color:#65bdd2;
+  color:#000000;
   font-size: calc(2.2 * 1rem);
   font-weight: bold;
 }
@@ -334,7 +347,7 @@
 }
 
 .App .landing-page .content .h1 {
-  color: #65bdd2;
+  color: #000000;
   display: flex;
   flex-direction: column;
   font-size: calc((4 - 1) * 1.2vw + 1rem);
@@ -410,6 +423,7 @@
   text-decoration: none;
   position: relative;
   font-weight: lighter;
+  width: fit-content;
 }
 
 .App .landing-page .content-wrapper .content .main-img-card-two .gallery-txt .link:after {
@@ -451,6 +465,7 @@
   text-decoration: none;
   position: relative;
   font-weight: lighter;
+  width: fit-content;
 }
 
 .App .landing-page .content-wrapper .content .main-img-card .gallery-txt .link:after {
@@ -701,7 +716,7 @@
 }
 
 .App .footer-wrapper p {
-  color: #65bdd2;
+  color: #000000;
   font-size: 1.3rem;
 }
 
@@ -718,7 +733,7 @@
 }
 
 .App .nav-bar .MuiToolbar-root .links .link a {
-  color: #65bdd2;
+  color: #000000;
   font-family: 'Roboto Condensed', sans-serif;
   text-decoration: none;
 }

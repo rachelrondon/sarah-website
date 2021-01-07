@@ -23,20 +23,20 @@ const MainGallery = () => {
                   </div>
                 </div>
                 <div className="right-column">
-                  <a href="/oil-paintings" className="main-img-card-two" target="_blank">
+                  <div href="/oil-paintings" className="main-img-card-two" target="_blank">
                     <img src={verticalGalleryImgTwo}></img>
                     <div className="gallery-txt">
                       <p className="gallery-title">CERAMICS</p>
                       <a className="link" href="/ceramics" target="_blank">view gallery</a>
                     </div>
-                  </a>
-                  <a href="/oil-paintings" className="main-img-card-two" target="_blank">
+                  </div>
+                  <div href="/oil-paintings" className="main-img-card-two" target="_blank">
                     <img src={verticalGalleryImgTwo}></img>
                     <div className="gallery-txt">
                       <p className="gallery-title">MIXED MEDIA</p>
                       <a className="link" href="/mixed-media" target="_blank">view gallery</a>
                     </div>
-                  </a>
+                  </div>
                 </div>
             </div>
           </div>
