@@ -10,32 +10,25 @@
 }
 
 .App .main-about {
-  background-color: #f0dcc9;
-  padding: 7rem 4rem;
-}
-
-.App .main-about .content-wrapper .main-about-content {
-  align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  background-color: #f0dcc9;
+  padding: 7rem 4rem;
+  align-items: center;
 }
 
-.App .main-about .content-wrapper .main-about-content .main-about-content-txt {
-  width: auto;
-  position: absolute;
-  z-index: 2;
-  background-color: #ffffff;
-  padding: 7rem;
-  color: #000000;
-  opacity: 1; 
-}
-
-.App .main-about .content-wrapper .main-about-content img {
-  width: auto;
-  height: auto;
+.App .main-about img {
   z-index: 1;
   position: relative;
+}
+
+.App .main-about .main-about-content {
+  background-color: #ffffff;
+  z-index: 2;
+  margin: 7rem 4rem;
+  padding: 7rem 4rem;
+  position: absolute;
+  left: 45rem;
 }
 
 .App .main {
