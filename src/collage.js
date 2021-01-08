@@ -1,5 +1,4 @@
 import React from 'react';
-
 import collagePhotoOne from '../public/gallery-photos/collage-images/aerial-disturbance.jpg';
 import collagePhotoTwo from '../public/gallery-photos/collage-images/always-in-this-twilight.jpg';
 import collagePhotoThree from '../public/gallery-photos/collage-images/collage-photo-two.jpg';
@@ -23,24 +22,24 @@ const OilPaintings = () => {
   return (
     <div className="gallery">
       <div className="gallery-imgs">
-        <img src={collagePhotoOne} alt="collages" />
-        <img src={collagePhotoTwo} alt="collages" />
-        <img src={collagePhotoThree} alt="collages" />
-        <img src={collagePhotoFour} alt="oil painting" />
-        <img src={collagePhotoFive} alt="oil painting" />
-        <img src={collagePhotoSix} alt="oil painting" />
-        <img src={collagePhotoSeven} alt="oil painting" />
-        <img src={collagePhotoEight} alt="oil painting" />
-        <img src={collagePhotoNine} alt="oil painting" />
-        <img src={collagePhotoTen} alt="oil painting" />
-        <img src={collagePhotoEleven} alt="oil painting" />
-        <img src={collagePhotoTwelve} alt="oil painting" />
-        <img src={collagePhotoThirteen} alt="oil painting" />
-        <img src={collagePhotoFourteen} alt="oil painting" />
-        <img src={collagePhotoFifteen} alt="oil painting" />
-        <img src={collagePhotoSixteen} alt="oil painting" />
-        <img src={collagePhotoSeventeen} alt="oil painting" />
-        <img src={collagePhotoEighteen} alt="oil painting" />
+        <img src={collagePhotoOne} alt="image of a collage" />
+        <img src={collagePhotoTwo} alt="image of a collage" />
+        <img src={collagePhotoThree} alt="image of a collage" />
+        <img src={collagePhotoFour} alt="image of a collage" />
+        <img src={collagePhotoFive} alt="image of a collage" />
+        <img src={collagePhotoSix} alt="image of a collage" />
+        <img src={collagePhotoSeven} alt="image of a collage" />
+        <img src={collagePhotoEight} alt="image of a collage" />
+        <img src={collagePhotoNine} alt="image of a collage" />
+        <img src={collagePhotoTen} alt="image of a collage" />
+        <img src={collagePhotoEleven} alt="image of a collage" />
+        <img src={collagePhotoTwelve} alt="image of a collage" />
+        <img src={collagePhotoThirteen} alt="image of a collage" />
+        <img src={collagePhotoFourteen} alt="image of a collage" />
+        <img src={collagePhotoFifteen} alt="image of a collage" />
+        <img src={collagePhotoSixteen} alt="image of a collage" />
+        <img src={collagePhotoSeventeen} alt="image of a collage" />
+        <img src={collagePhotoEighteen} alt="image of a collage" />
       </div>
     </div>
   )

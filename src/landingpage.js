@@ -5,10 +5,10 @@ import MainAbout from './main-about.js';
 
 export default function LandingPage() {
   return (
-      <div className="landing-page">
-        <Main />
-        <MainGallery />
-        <MainAbout />
+    <div className="landing-page">
+      <Main />
+      <MainGallery />
+      <MainAbout />
     </div>
   )
 }

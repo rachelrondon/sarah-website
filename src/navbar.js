@@ -135,7 +135,7 @@ const NavBar = () => {
             </div>
             <List className="mobile-nav-list">
               <ListItem>
-                  <a href="/">Blog</a>
+                  <a target="_blank" href="https://sarahrondon.blogspot.com/?m=1">Blog</a>
               </ListItem>
               <ListItem>
                   <a href="/gallery">Gallery</a>
