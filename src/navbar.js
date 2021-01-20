@@ -116,9 +116,6 @@ const NavBar = () => {
                     <a href="/gallery">Gallery</a>
                   </Typography>
                 </div>
-                <div className="nav-icons">
-                  <div className="icon">Cart</div>
-                </div>
               </div>
             </Toolbar>
           </AppBar>
