@@ -1,6 +1,6 @@
 import React from 'react';
 import flower from '../public/main-images/flower-one.jpg';
-
+import mainArtImage from '../public/main-images/art.jpg';
 
 const Main = () => {
     return(
@@ -12,7 +12,7 @@ const Main = () => {
           </div>
         </div>
         <div className="content-wrapper">
-          <img src={flower}></img>
+          <img src={mainArtImage}></img>
         </div>
       </div>
     )
