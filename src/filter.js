@@ -8,7 +8,7 @@ class Filter extends React.Component {
     this.state = {
       data: this.props.data,
       showCount: 3,
-      collection: 'oil paintings',
+      collection: 'all',
       btnText: "Load More",
       expanded: false
     }
@@ -74,10 +74,9 @@ class Filter extends React.Component {
     return (
       <section className="filter-container">
         <div className="filter-btns">
-        <button onClick={this.showOilPaintings.bind(this)} className="btn">Oil Paintings</button>
+          <button onClick={this.showOilPaintings.bind(this)} className="btn">Oil Paintings</button>
           <button onClick={this.showMixedMedia.bind(this)} className="btn">Mixed Media</button>
           <button onClick={this.showCollage.bind(this)} className="btn">Collage</button>
-          <button onClick={this.showAll.bind(this)} className="btn">Show All</button>
         </div>
         <div className="filter-card-container">
           {this.state.data.slice(0, this.state.showCount).map((item) => {
