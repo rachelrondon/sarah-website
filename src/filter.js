@@ -24,7 +24,7 @@ class Filter extends React.Component {
       collection: "oil paintings",
       filteredData: filteredList,
       showCount: 3,
-      btnText: "Load More",
+      btnText: "Show More",
     })
   }
 
@@ -36,7 +36,7 @@ class Filter extends React.Component {
       collection: "collage",
       filteredData: filteredList,
       showCount: 3,
-      btnText: "Load More",
+      btnText: "Show More",
     })
   }
 
@@ -48,11 +48,12 @@ class Filter extends React.Component {
       collection: "mixed media",
       filteredData: filteredList,
       showCount: 3,
-      btnText: "Load More",
+      btnText: "Show More",
     })
   }
 
   loadMore() {
+    let btnText = this.state.btnText;
     let multiplesOfThree = [3, 6, 9, 12, 15, 18, 21, 24, 27, 30];
     let length = this.state.filteredData.length;
     let newLength;
@@ -67,7 +68,7 @@ class Filter extends React.Component {
       newLength = length;
     }
 
-    if (this.state.showCount === newLength - 3 ) {
+    if (this.state.showCount === newLength + 3 ) {
       this.setState({
         btnText: "Show Less",
       })
@@ -90,15 +91,20 @@ class Filter extends React.Component {
       })
     }
 
-    if (this.state.btnText === "Show Less") {
+    if (btnText === "Show Less") {
       this.setState({
         showCount: 3,
         btnText: "Show More"
       })
     }
+
+    console.log("show count:", this.state.showCount, "newLength", newLength);
+
   }
 
   render() {
+    console.log("this is the showCount")
+    console.log(this.state.showCount);
     return (
       <section className="filter-container">
         <div className="filter-btns">
