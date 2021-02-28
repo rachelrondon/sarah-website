@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Card = ({key, collection, title, image, imageTxt}) => {
+const Card = ({key, collection, title, image, imageTxt, artist}) => {
 
   return (
       <section className="card-container">
@@ -10,6 +10,7 @@ const Card = ({key, collection, title, image, imageTxt}) => {
         </div>
         <div className="card-content">
           <p className="card-content-title">{title}</p>
+          <p className="card-content-info">{artist} &#8226; {collection} </p>
         </div>
       </section>
     )

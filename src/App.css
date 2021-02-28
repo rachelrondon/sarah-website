@@ -138,6 +138,10 @@
   margin-bottom: 0;
 }
 
+.card-content-info {
+  font-weight: 100;
+}
+
 .filter-container {
   max-width: 68rem;
   margin: 5rem 0;

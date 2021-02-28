@@ -22,17 +22,17 @@ class Filter extends React.Component {
       colletion: 'all',
       showCount: 3,
       btnText: "Show More",
-      filteredData: this.props.data, 
+      filteredData: this.props.data,
     })
   }
 
 
   showOilPaintings() {
     let filteredList = this.props.data.filter((item) => {
-      return item.collection === "Oil Paintings";
+      return item.collection === "Oil Painting";
     });
     this.setState({
-      collection: "oil paintings",
+      collection: "oil painting",
       filteredData: filteredList,
       showCount: 3,
       btnText: "Show More",
@@ -128,6 +128,7 @@ class Filter extends React.Component {
           {this.state.filteredData.slice(0, this.state.showCount).map((item) => {
             return (
               <Card
+                artist={this.props.artist}
                 key={item.id}
                 collection={item.collection}
                 title={item.title}
