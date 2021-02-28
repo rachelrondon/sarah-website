@@ -32,7 +32,7 @@ class App extends Component {
           <Route path="/oil-paintings" component={OilPaintings} exact />
         </Switch>
       </BrowserRouter>
-      <Footer /> 
+      <Footer />
       </div>
     );
   }

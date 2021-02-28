@@ -3,6 +3,78 @@
   font-family: 'Spartan', sans-serif;
 }
 
+.filter-card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.filter-container-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  border: 1px solid #ced4d6;
+  color: #000000;
+  background-color: #ffffff;
+  margin: 1rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.load-more-btn {
+  display: flex;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #ced4d6;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  font-weight: 1rem;
+  font-weight: bold;
+}
+
+/* card */
+.card-container {
+  width: 33%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0;
+  position: relative;
+  text-align: left;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-text {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: bold;
+  position: absolute;
+  margin: 0.5rem;
+  top: 0;
+  padding: 0.5rem;
+}
+
+.card-content-title {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.App .filter-container {
+  max-width: 68rem;
+  margin: 5rem 0;
+}
+
 .App .gallery {
   display: flex;
   flex-direction: row;
@@ -10,41 +82,49 @@
   justify-content: center;
 }
 
-.App .main-about {
+.App .about {
+  max-width: 68rem;
   display: flex;
   flex-direction: row;
   background-color: #f5f5f7;
   padding: 7rem 4rem;
 }
 
-.App .main-about img {
+.about-container {
+  background-color: #f5f5f7;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
+}
+
+.App .about img {
   z-index: 1;
   position: relative;
   width: 50%;
   margin-right: 0.15rem;
 }
 
-.App .main-about .main-about-content {
+.App .about .main-about-content {
   background-color: #ffffff;
   width: 50%;
   padding: 7rem 4rem;
 }
 
-.App .main {
+.App .hero-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 7rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  max-width: 68rem;
+  margin: 0 5rem;
 }
 
-.App .main .content {
+.App .hero-container .content {
   padding-bottom: 7rem;
   padding-top: 7rem;
 }
 
-.App .main img {
+.App .hero-container img {
   width: 100%;
   height: auto;
 }
@@ -177,29 +257,35 @@
   font-weight: 100;
 }
 
-.App .landing-page. .content {
+.App .landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App .landing-container .content {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-.App .landing-page .content-wrapper .content {
+.App .landing-container .content-wrapper .content {
   text-align: center;
 }
 
-.App .landing-page .content-wrapper .content .content-imgs {
+.App .landing-container .content-wrapper .content .content-imgs {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.App .landing-page .content-wrapper .content .content-imgs .right-column {
+.App .landing-container .content-wrapper .content .content-imgs .right-column {
   display: flex;
   flex-direction: column;
   width: 50%;
 }
 
-.App .landing-page .content .h1 {
+.App .landing-container .content .name {
   color: #000000;
   display: flex;
   flex-direction: column;
@@ -209,7 +295,7 @@
   text-align: center;
 }
 
-.App .landing-page .gallery {
+.App .landing-container .gallery {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -218,31 +304,31 @@
   width: 100%;
 }
 
-.App .landing-page .main-img-card {
+.App .landing-container .main-img-card {
   width: 50%;
   height: auto;
   position: relative;
   margin-right: 0.15rem;
 }
 
-.App .landing-page .main-img-card img {
+.App .landing-container .main-img-card img {
   width: 100%;
   height: auto;
 }
 
-.App .landing-page .main-img-card-two {
+.App.landing-container .main-img-card-two {
   width: 100%;
   height: auto;
   position: relative;
 }
 
-.App .landing-page .main-img-card-two img {
+.App .landing-container .main-img-card-two img {
   width: 100%;
   height: auto;
   opacity: 0.9;
 }
 
-.App .landing-page .content-wrapper .content .main-img-card-two .gallery-txt {
+.App .landing-container .content-wrapper .content .main-img-card-two .gallery-txt {
   font-size: 24px;
   position: absolute;
   top: 0;
@@ -284,7 +370,7 @@
   transform: translateX(-50%);
 }
 
-.App .landing-page .content-wrapper .content .main-img-card-two .gallery-txt .link {
+.App .landing-container .content-wrapper .content .main-img-card-two .gallery-txt .link {
   font-size: 18px;
   margin-top: 30px;
   color: #000000;
@@ -294,7 +380,7 @@
   width: fit-content;
 }
 
-.App .landing-page .content-wrapper .content .main-img-card-two .gallery-txt .link:after {
+.App .landing-container .content-wrapper .content .main-img-card-two .gallery-txt .link:after {
   background-color: #000000;
   bottom: -7px;
   height: 1px;
@@ -306,7 +392,7 @@
   transform: translateX(-50%);
 }
 
-.App .landing-page .content-wrapper .content .main-img-card .gallery-txt {
+.App .landing-container .content-wrapper .content .main-img-card .gallery-txt {
   font-size: 24px;
   position: absolute;
   top: 0;
@@ -326,7 +412,7 @@
   text-align: left;
 }
 
-.App .landing-page .content-wrapper .content .main-img-card .gallery-txt .link {
+.App .landing-container .content-wrapper .content .main-img-card .gallery-txt .link {
   font-size: 18px;
   margin-top: 30px;
   color: #000000;
@@ -336,7 +422,7 @@
   width: fit-content;
 }
 
-.App .landing-page .content-wrapper .content .main-img-card .gallery-txt .link:after {
+.App .landing-container .content-wrapper .content .main-img-card .gallery-txt .link:after {
   background-color: #000000;
   bottom: -7px;
   height: 1px;
@@ -348,7 +434,7 @@
   transform: translateX(-50%);
 }
 
-.App .landing-page .gallery .gallery-title {
+.App .landing-container .gallery .gallery-title {
   color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -361,7 +447,7 @@
   top: 50%;
 }
 
-.App .landing-page .gallery .gallery-photo {
+.App .landing-container .gallery .gallery-photo {
   bottom: 4vw;
   color: #ffffff;
   font-family: 'Spartan', sans-serif;
@@ -393,12 +479,8 @@
   left: 0;
   overflow: hidden;
   top: 0;
-  width: 100%;
+  max-width: 68rem;
   z-index: 9999;
-}
-
-.App .nav-wrapper {
-  padding: 2.2vw 4vw;
 }
 
 .App .footer-wrapper {
@@ -473,29 +555,29 @@
 }
 
 @media (max-width: 768px) {
-  .App .landing-page .content-wrapper .content .content-imgs {
+  .App .landing-container .content-wrapper .content .content-imgs {
     flex-direction: column;
   }
-  .App .main-about {
+  .App .about {
     flex-direction: column;
   }
-  .App .landing-page .main-img-card {
+  .App .landing-container .main-img-card {
     margin-right: 0;
     padding-bottom: 4rem;
     width: 100%;
   }
-  .App .landing-page .content-wrapper .content .content-imgs .right-column {
+  .App .landing-container .content-wrapper .content .content-imgs .right-column {
     width: 100%;
   }
-  .App .landing-page .content-wrapper .content .content-imgs .right-column .main-img-card-two {
+  .App .landing-container .content-wrapper .content .content-imgs .right-column .main-img-card-two {
     padding-bottom: 4rem;
     width: 100%;
   }
-  .App .main-about img {
+  .App .about img {
     margin-bottom: 4rem;
     width: 100%;
   }
-  .App .main-about .main-about-content {
+  .App .about .main-about-content {
     padding-bottom: 4rem;
     width: auto;
   }
