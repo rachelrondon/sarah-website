@@ -13,6 +13,7 @@ class Filter extends React.Component {
       btnText: "Show More",
       expanded: false,
       length: 0,
+      count: 2,
     }
   }
 
@@ -56,7 +57,12 @@ class Filter extends React.Component {
     let btnText = this.state.btnText;
     let multiplesOfThree = [3, 6, 9, 12, 15, 18, 21, 24, 27, 30];
     let length = this.state.filteredData.length;
+    let numOfReloads = Math.round(length / 3);
     let newLength;
+
+    this.setState({
+      count: this.state.count + 1
+    })
 
     if (length % 3 !== 0) {
       if (multiplesOfThree.includes(length - 1)) {
@@ -68,16 +74,7 @@ class Filter extends React.Component {
       newLength = length;
     }
 
-    if (this.state.showCount === newLength + 3 ) {
-      this.setState({
-        btnText: "Show Less",
-      })
-    } else if (this.state.showCount === newLength) {
-      this.setState({
-        showCount: 3,
-        btnText: "Show More"
-      })
-    } else if (this.state.showCount === 3 ){
+    if (this.state.showCount === 3 ){
       this.setState({
         showCount: this.state.showCount + 3,
         expanded: true,
@@ -98,13 +95,17 @@ class Filter extends React.Component {
       })
     }
 
-    console.log("show count:", this.state.showCount, "newLength", newLength);
-
+    if (numOfReloads === this.state.count) {
+      this.setState({
+        btnText: "Show Less",
+        count: 1,
+      })
+    }
+    console.log(this.state.count);
+    console.log(numOfReloads);
   }
 
   render() {
-    console.log("this is the showCount")
-    console.log(this.state.showCount);
     return (
       <section className="filter-container">
         <div className="filter-btns">
