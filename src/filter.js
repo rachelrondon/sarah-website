@@ -26,7 +26,6 @@ class Filter extends React.Component {
     })
   }
 
-
   showOilPaintings() {
     let filteredList = this.props.data.filter((item) => {
       return item.collection === "Oil Painting";
