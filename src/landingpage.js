@@ -3,6 +3,7 @@ import Hero from './hero.js';
 import MainGallery from './main-gallery.js';
 import MainAbout from './main-about.js';
 import Filter from './filter.js';
+import Collection from './collection.js';
 
 // mixed media images //
 import mixedMediaOne from '../public/gallery-photos/mixed-media/mixed-media-one.jpg';
@@ -69,8 +70,31 @@ class LandingPage extends React.Component {
     super(props);
 
     this.state = {
-      heroImage: collagePhotoSix,
+      heroImage: collagePhotoSeven,
       aboutImage: collagePhotoTwo,
+      collection: [
+        {
+          id: 1,
+          collection: "Oil Paintings",
+          title: "Oil Paintings Collection",
+          image: oilPaintingOne,
+          imageTxt: "oil paintings collection"
+        },
+        {
+          id: 2,
+          collection: "Mixed Media",
+          title: "Mixed Media Collection",
+          image: mixedMediaOne,
+          imageTxt: "mixed media collection"
+        },
+        {
+          id: 3,
+          collection: "Collage",
+          title: "Collage Collection",
+          image: collagePhotoOne,
+          imageTxt: "collage collection"
+        },
+      ],
       data: [
         {
           id: 1,

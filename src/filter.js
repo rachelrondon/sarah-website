@@ -7,19 +7,13 @@ class Filter extends React.Component {
 
     this.state = {
       data: this.props.data,
+      filteredData: this.props.data,
       showCount: 3,
       collection: 'all',
-      btnText: "Load More",
-      expanded: false
+      btnText: "Show More",
+      expanded: false,
+      length: 0,
     }
-  }
-
-  showAll() {
-    this.setState({
-      collection: 'all',
-      data: this.props.data,
-      showCount: 3,
-    })
   }
 
   showOilPaintings() {
@@ -28,8 +22,9 @@ class Filter extends React.Component {
     });
     this.setState({
       collection: "oil paintings",
-      data: filteredList,
+      filteredData: filteredList,
       showCount: 3,
+      btnText: "Load More",
     })
   }
 
@@ -39,8 +34,9 @@ class Filter extends React.Component {
     });
     this.setState({
       collection: "collage",
-      data: filteredList,
+      filteredData: filteredList,
       showCount: 3,
+      btnText: "Load More",
     })
   }
 
@@ -50,25 +46,57 @@ class Filter extends React.Component {
     });
     this.setState({
       collection: "mixed media",
-      data: filteredList,
+      filteredData: filteredList,
       showCount: 3,
+      btnText: "Load More",
     })
   }
 
   loadMore() {
-    this.state.showCount === 3 ? (
+    let multiplesOfThree = [3, 6, 9, 12, 15, 18, 21, 24, 27, 30];
+    let length = this.state.filteredData.length;
+    let newLength;
+
+    if (length % 3 !== 0) {
+      if (multiplesOfThree.includes(length - 1)) {
+        newLength = length - 1
+      } else if (multiplesOfThree.includes(length + 1)) {
+        newLength = length + 1
+      }
+    } else {
+      newLength = length;
+    }
+
+    if (this.state.showCount === newLength - 3 ) {
+      this.setState({
+        btnText: "Show Less",
+      })
+    } else if (this.state.showCount === newLength) {
+      this.setState({
+        showCount: 3,
+        btnText: "Show More"
+      })
+    } else if (this.state.showCount === 3 ){
       this.setState({
         showCount: this.state.showCount + 3,
         expanded: true,
-        btnText: "Show Less"
+        btnText: "Show More"
       })
-    ) : this.setState({
-      showCount: 3,
-      expanded: false,
-      btnText: "Show More"
-    })
-  }
+    } else {
+      this.setState({
+        showCount: this.state.showCount + 3,
+        expanded: true,
+        btnText: "Show More"
+      })
+    }
 
+    if (this.state.btnText === "Show Less") {
+      this.setState({
+        showCount: 3,
+        btnText: "Show More"
+      })
+    }
+  }
 
   render() {
     return (
@@ -79,7 +107,7 @@ class Filter extends React.Component {
           <button onClick={this.showCollage.bind(this)} className="btn">Collage</button>
         </div>
         <div className="filter-card-container">
-          {this.state.data.slice(0, this.state.showCount).map((item) => {
+          {this.state.filteredData.slice(0, this.state.showCount).map((item) => {
             return (
               <Card
                 key={item.id}

@@ -3,6 +3,41 @@
   font-family: 'Spartan', sans-serif;
 }
 
+.collection-card-container {
+  width: 49.5%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #faf9f7;
+  font-weight: 300;
+  position: relative;
+  font-family: "Graphik Web Medium",sans-serif
+}
+
+.collection-image {
+  width: 100%;
+  height: auto;
+}
+
+.collection-title {
+  color: #ffffff;
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin: 1rem;
+  top: 0;
+}
+
+.collection-container {
+  max-width: 68rem;
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .filter-card-container {
   display: flex;
   flex-direction: row;
