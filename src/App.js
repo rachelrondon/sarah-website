@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import NavBar from './navbar.js';
+import Nav from './nav.js';
 import Footer from './footer.js';
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import LandingPage from './landingpage';
@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <NavBar />
+      <Nav />
       <BrowserRouter>
         <Switch>
           <Route path="/" component={LandingPage} exact />

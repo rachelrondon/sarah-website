@@ -17,6 +17,16 @@ class Filter extends React.Component {
     }
   }
 
+  showAll() {
+    this.setState({
+      colletion: 'all',
+      showCount: 3,
+      btnText: "Show More",
+      filteredData: this.props.data, 
+    })
+  }
+
+
   showOilPaintings() {
     let filteredList = this.props.data.filter((item) => {
       return item.collection === "Oil Paintings";
@@ -112,6 +122,7 @@ class Filter extends React.Component {
           <button onClick={this.showOilPaintings.bind(this)} className="btn">Oil Paintings</button>
           <button onClick={this.showMixedMedia.bind(this)} className="btn">Mixed Media</button>
           <button onClick={this.showCollage.bind(this)} className="btn">Collage</button>
+          <button onClick={this.showAll.bind(this)} className="btn">Show All</button>
         </div>
         <div className="filter-card-container">
           {this.state.filteredData.slice(0, this.state.showCount).map((item) => {
