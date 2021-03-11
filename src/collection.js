@@ -1,13 +1,13 @@
-import React from 'react';
-import CollectionCard from './collection-card.js';
+import React from "react";
+import CollectionCard from "./collection-card.js";
 
 class Collection extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      data: this.props.data
-    }
+      data: this.props.data,
+    };
   }
 
   render() {
@@ -21,10 +21,10 @@ class Collection extends React.Component {
               image={item.image}
               imageTxt={item.imageTxt}
             />
-          )
+          );
         })}
       </section>
-    )
+    );
   }
 }
 

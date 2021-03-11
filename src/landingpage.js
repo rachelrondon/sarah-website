@@ -1,69 +1,69 @@
-import React from 'react';
-import Hero from './hero.js';
-import MainGallery from './main-gallery.js';
-import MainAbout from './main-about.js';
-import Filter from './filter.js';
-import Collection from './collection.js';
+import React from "react";
+import Hero from "./hero.js";
+import MainGallery from "./main-gallery.js";
+import MainAbout from "./main-about.js";
+import Filter from "./filter.js";
+import Collection from "./collection.js";
 
 // mixed media images //
-import mixedMediaOne from '../public/gallery-photos/mixed-media/mixed-media-one.jpg';
-import mixedMediaTwo from '../public/gallery-photos/mixed-media/mixed-media-two.jpg';
-import mixedMediaThree from '../public/gallery-photos/mixed-media/mixed-media-three.jpg';
-import mixedMediaFour from '../public/gallery-photos/mixed-media/mixed-media-four.jpg';
-import mixedMediaFive from '../public/gallery-photos/mixed-media/mixed-media-five.jpg';
-import mixedMediaSix from '../public/gallery-photos/mixed-media/mixed-media-six.jpg';
-import mixedMediaSeven from '../public/gallery-photos/mixed-media/mixed-media-seven.jpg';
-import mixedMediaEight from '../public/gallery-photos/mixed-media/mixed-media-eight.jpg';
-import mixedMediaNine from '../public/gallery-photos/mixed-media/mixed-media-nine.jpg';
-import mixedMediaTen from '../public/gallery-photos/mixed-media/mixed-media-ten.jpg';
-import mixedMediaEleven from '../public/gallery-photos/mixed-media/mixed-media-eleven.jpg';
+import mixedMediaOne from "../public/gallery-photos/mixed-media/mixed-media-one.jpg";
+import mixedMediaTwo from "../public/gallery-photos/mixed-media/mixed-media-two.jpg";
+import mixedMediaThree from "../public/gallery-photos/mixed-media/mixed-media-three.jpg";
+import mixedMediaFour from "../public/gallery-photos/mixed-media/mixed-media-four.jpg";
+import mixedMediaFive from "../public/gallery-photos/mixed-media/mixed-media-five.jpg";
+import mixedMediaSix from "../public/gallery-photos/mixed-media/mixed-media-six.jpg";
+import mixedMediaSeven from "../public/gallery-photos/mixed-media/mixed-media-seven.jpg";
+import mixedMediaEight from "../public/gallery-photos/mixed-media/mixed-media-eight.jpg";
+import mixedMediaNine from "../public/gallery-photos/mixed-media/mixed-media-nine.jpg";
+import mixedMediaTen from "../public/gallery-photos/mixed-media/mixed-media-ten.jpg";
+import mixedMediaEleven from "../public/gallery-photos/mixed-media/mixed-media-eleven.jpg";
 
 // oil paiting images
-import oilPaintingOne from '../public/gallery-photos/oil-paintings/ACS_0146.jpg';
-import oilPaintingTwo from '../public/gallery-photos/oil-paintings/ACS_0147.jpg';
-import oilPaintingThree from '../public/gallery-photos/oil-paintings/ACS_0148.jpg';
-import oilPaintingFour from '../public/gallery-photos/oil-paintings/ACS_0149.jpg';
-import oilPaintingFive from '../public/gallery-photos/oil-paintings/ACS_0150.jpg';
-import oilPaintingSix from '../public/gallery-photos/oil-paintings/ACS_0152.jpg';
-import oilPaintingSeven from '../public/gallery-photos/oil-paintings/ACS_0153.jpg';
-import oilPaintingEight from '../public/gallery-photos/oil-paintings/ACS_0165.jpg';
-import oilPaintingNine from '../public/gallery-photos/oil-paintings/ACS_0166.jpg';
-import oilPaintingTen from '../public/gallery-photos/oil-paintings/ACS_0167.jpg';
-import oilPaintingEleven from '../public/gallery-photos/oil-paintings/ACS_0171.jpg';
-import oilPaintingTwelve from '../public/gallery-photos/oil-paintings/ACS_0174.jpg';
-import oilPaintingThirteen from '../public/gallery-photos/oil-paintings/ACS_0175.jpg';
-import oilPaintingFourteen from '../public/gallery-photos/oil-paintings/ACS_0176.jpg';
-import oilPaintingFifteen from '../public/gallery-photos/oil-paintings/ACS_0178.jpg';
-import oilPaintingSixteen from '../public/gallery-photos/oil-paintings/ACS_0180.jpg';
-import oilPaintingSeventeen from '../public/gallery-photos/oil-paintings/ACS_0181.jpg';
-import oilPaintingEighteen from '../public/gallery-photos/oil-paintings/ACS_0182.jpg';
-import oilPaintingNineteen from '../public/gallery-photos/oil-paintings/ACS_0183.jpg';
-import oilPaintingTwenty from '../public/gallery-photos/oil-paintings/ACS_0184.jpg';
-import oilPaintingTwentyOne from '../public/gallery-photos/oil-paintings/ACS_0193.jpg';
-import oilPaintingTwentyTwo from '../public/gallery-photos/oil-paintings/ACS_0198.jpg';
-import oilPaintingTwentyThree from '../public/gallery-photos/oil-paintings/ACS_0204.jpg';
-import oilPaintingTwentyFour from '../public/gallery-photos/oil-paintings/ACS_0205.jpg';
-import oilPaintingTwentyFive from '../public/gallery-photos/oil-paintings/IMG_1541.PNG';
+import oilPaintingOne from "../public/gallery-photos/oil-paintings/ACS_0146.jpg";
+import oilPaintingTwo from "../public/gallery-photos/oil-paintings/ACS_0147.jpg";
+import oilPaintingThree from "../public/gallery-photos/oil-paintings/ACS_0148.jpg";
+import oilPaintingFour from "../public/gallery-photos/oil-paintings/ACS_0149.jpg";
+import oilPaintingFive from "../public/gallery-photos/oil-paintings/ACS_0150.jpg";
+import oilPaintingSix from "../public/gallery-photos/oil-paintings/ACS_0152.jpg";
+import oilPaintingSeven from "../public/gallery-photos/oil-paintings/ACS_0153.jpg";
+import oilPaintingEight from "../public/gallery-photos/oil-paintings/ACS_0165.jpg";
+import oilPaintingNine from "../public/gallery-photos/oil-paintings/ACS_0166.jpg";
+import oilPaintingTen from "../public/gallery-photos/oil-paintings/ACS_0167.jpg";
+import oilPaintingEleven from "../public/gallery-photos/oil-paintings/ACS_0171.jpg";
+import oilPaintingTwelve from "../public/gallery-photos/oil-paintings/ACS_0174.jpg";
+import oilPaintingThirteen from "../public/gallery-photos/oil-paintings/ACS_0175.jpg";
+import oilPaintingFourteen from "../public/gallery-photos/oil-paintings/ACS_0176.jpg";
+import oilPaintingFifteen from "../public/gallery-photos/oil-paintings/ACS_0178.jpg";
+import oilPaintingSixteen from "../public/gallery-photos/oil-paintings/ACS_0180.jpg";
+import oilPaintingSeventeen from "../public/gallery-photos/oil-paintings/ACS_0181.jpg";
+import oilPaintingEighteen from "../public/gallery-photos/oil-paintings/ACS_0182.jpg";
+import oilPaintingNineteen from "../public/gallery-photos/oil-paintings/ACS_0183.jpg";
+import oilPaintingTwenty from "../public/gallery-photos/oil-paintings/ACS_0184.jpg";
+import oilPaintingTwentyOne from "../public/gallery-photos/oil-paintings/ACS_0193.jpg";
+import oilPaintingTwentyTwo from "../public/gallery-photos/oil-paintings/ACS_0198.jpg";
+import oilPaintingTwentyThree from "../public/gallery-photos/oil-paintings/ACS_0204.jpg";
+import oilPaintingTwentyFour from "../public/gallery-photos/oil-paintings/ACS_0205.jpg";
+import oilPaintingTwentyFive from "../public/gallery-photos/oil-paintings/IMG_1541.PNG";
 
 // collage images
-import collagePhotoOne from '../public/gallery-photos/collage-images/aerial-disturbance.jpg';
-import collagePhotoTwo from '../public/gallery-photos/collage-images/always-in-this-twilight.jpg';
-import collagePhotoThree from '../public/gallery-photos/collage-images/collage-photo-two.jpg';
-import collagePhotoFour from '../public/gallery-photos/collage-images/collage-photo.jpg';
-import collagePhotoFive from '../public/gallery-photos/collage-images/color-block.jpg';
-import collagePhotoSix from '../public/gallery-photos/collage-images/common-spy.jpg';
-import collagePhotoSeven from '../public/gallery-photos/collage-images/falling-through-the-air.jpg';
-import collagePhotoEight from '../public/gallery-photos/collage-images/heatwave.jpg';
-import collagePhotoNine from '../public/gallery-photos/collage-images/honey-and-the-Moth.jpg';
-import collagePhotoTen from '../public/gallery-photos/collage-images/my-dreams-begin-to-creep.jpg';
-import collagePhotoEleven from '../public/gallery-photos/collage-images/renew.jpg';
-import collagePhotoTwelve from '../public/gallery-photos/collage-images/sight-and-sound.jpg';
-import collagePhotoThirteen from '../public/gallery-photos/collage-images/the-night-kept-coming.jpg';
-import collagePhotoFourteen from '../public/gallery-photos/collage-images/the-spell.jpg';
-import collagePhotoFifteen from '../public/gallery-photos/collage-images/the-tree-in-the-mountains.jpg';
-import collagePhotoSixteen from '../public/gallery-photos/collage-images/unknown-history.jpg';
-import collagePhotoSeventeen from '../public/gallery-photos/collage-images/westward.jpg';
-import collagePhotoEighteen from '../public/gallery-photos/collage-images/poppy-talk.jpg';
+import collagePhotoOne from "../public/gallery-photos/collage-images/aerial-disturbance.jpg";
+import collagePhotoTwo from "../public/gallery-photos/collage-images/always-in-this-twilight.jpg";
+import collagePhotoThree from "../public/gallery-photos/collage-images/collage-photo-two.jpg";
+import collagePhotoFour from "../public/gallery-photos/collage-images/collage-photo.jpg";
+import collagePhotoFive from "../public/gallery-photos/collage-images/color-block.jpg";
+import collagePhotoSix from "../public/gallery-photos/collage-images/common-spy.jpg";
+import collagePhotoSeven from "../public/gallery-photos/collage-images/falling-through-the-air.jpg";
+import collagePhotoEight from "../public/gallery-photos/collage-images/heatwave.jpg";
+import collagePhotoNine from "../public/gallery-photos/collage-images/honey-and-the-Moth.jpg";
+import collagePhotoTen from "../public/gallery-photos/collage-images/my-dreams-begin-to-creep.jpg";
+import collagePhotoEleven from "../public/gallery-photos/collage-images/renew.jpg";
+import collagePhotoTwelve from "../public/gallery-photos/collage-images/sight-and-sound.jpg";
+import collagePhotoThirteen from "../public/gallery-photos/collage-images/the-night-kept-coming.jpg";
+import collagePhotoFourteen from "../public/gallery-photos/collage-images/the-spell.jpg";
+import collagePhotoFifteen from "../public/gallery-photos/collage-images/the-tree-in-the-mountains.jpg";
+import collagePhotoSixteen from "../public/gallery-photos/collage-images/unknown-history.jpg";
+import collagePhotoSeventeen from "../public/gallery-photos/collage-images/westward.jpg";
+import collagePhotoEighteen from "../public/gallery-photos/collage-images/poppy-talk.jpg";
 
 class LandingPage extends React.Component {
   constructor(props) {
@@ -79,21 +79,21 @@ class LandingPage extends React.Component {
           collection: "Oil Painting",
           title: "Oil Painting Collection",
           image: oilPaintingOne,
-          imageTxt: "Oil Painting collection"
+          imageTxt: "Oil Painting collection",
         },
         {
           id: 2,
           collection: "Mixed Media",
           title: "Mixed Media Collection",
           image: mixedMediaOne,
-          imageTxt: "mixed media collection"
+          imageTxt: "mixed media collection",
         },
         {
           id: 3,
           collection: "Collage",
           title: "Aerial Disturbance",
           image: collagePhotoOne,
-          imageTxt: "collage collection"
+          imageTxt: "collage collection",
         },
       ],
       data: [
@@ -476,7 +476,7 @@ class LandingPage extends React.Component {
           imageTxt: "mixed-media",
         },
       ],
-    }
+    };
   }
 
   render() {
@@ -486,7 +486,7 @@ class LandingPage extends React.Component {
         <Filter data={this.state.data} artist={this.state.artist} />
         <MainAbout image={this.state.aboutImage} />
       </div>
-    )
+    );
   }
 }
 

@@ -1,5 +1,5 @@
-import React from 'react';
-import Card from './card.js';
+import React from "react";
+import Card from "./card.js";
 
 class Filter extends React.Component {
   constructor(props) {
@@ -9,21 +9,21 @@ class Filter extends React.Component {
       data: this.props.data,
       filteredData: this.props.data,
       showCount: 3,
-      collection: 'all',
+      collection: "all",
       btnText: "Show More",
       expanded: false,
       length: 0,
       count: 2,
-    }
+    };
   }
 
   showAll() {
     this.setState({
-      colletion: 'all',
+      colletion: "all",
       showCount: 3,
       btnText: "Show More",
       filteredData: this.props.data,
-    })
+    });
   }
 
   showOilPaintings() {
@@ -35,7 +35,7 @@ class Filter extends React.Component {
       filteredData: filteredList,
       showCount: 3,
       btnText: "Show More",
-    })
+    });
   }
 
   showCollage() {
@@ -47,7 +47,7 @@ class Filter extends React.Component {
       filteredData: filteredList,
       showCount: 3,
       btnText: "Show More",
-    })
+    });
   }
 
   showMixedMedia() {
@@ -59,7 +59,7 @@ class Filter extends React.Component {
       filteredData: filteredList,
       showCount: 3,
       btnText: "Show More",
-    })
+    });
   }
 
   loadMore() {
@@ -70,45 +70,45 @@ class Filter extends React.Component {
     let newLength;
 
     this.setState({
-      count: this.state.count + 1
-    })
+      count: this.state.count + 1,
+    });
 
     if (length % 3 !== 0) {
       if (multiplesOfThree.includes(length - 1)) {
-        newLength = length - 1
+        newLength = length - 1;
       } else if (multiplesOfThree.includes(length + 1)) {
-        newLength = length + 1
+        newLength = length + 1;
       }
     } else {
       newLength = length;
     }
 
-    if (this.state.showCount === 3 ){
+    if (this.state.showCount === 3) {
       this.setState({
         showCount: this.state.showCount + 3,
         expanded: true,
-        btnText: "Show More"
-      })
+        btnText: "Show More",
+      });
     } else {
       this.setState({
         showCount: this.state.showCount + 3,
         expanded: true,
-        btnText: "Show More"
-      })
+        btnText: "Show More",
+      });
     }
 
     if (btnText === "Show Less") {
       this.setState({
         showCount: 3,
-        btnText: "Show More"
-      })
+        btnText: "Show More",
+      });
     }
 
     if (numOfReloads === this.state.count) {
       this.setState({
         btnText: "Show Less",
         count: 1,
-      })
+      });
     }
     console.log(this.state.count);
     console.log(numOfReloads);
@@ -118,30 +118,42 @@ class Filter extends React.Component {
     return (
       <section className="filter-container">
         <div className="filter-btns">
-          <button onClick={this.showOilPaintings.bind(this)} className="btn">Oil Paintings</button>
-          <button onClick={this.showMixedMedia.bind(this)} className="btn">Mixed Media</button>
-          <button onClick={this.showCollage.bind(this)} className="btn">Collage</button>
-          <button onClick={this.showAll.bind(this)} className="btn">Show All</button>
+          <button onClick={this.showOilPaintings.bind(this)} className="btn">
+            Oil Paintings
+          </button>
+          <button onClick={this.showMixedMedia.bind(this)} className="btn">
+            Mixed Media
+          </button>
+          <button onClick={this.showCollage.bind(this)} className="btn">
+            Collage
+          </button>
+          <button onClick={this.showAll.bind(this)} className="btn">
+            Show All
+          </button>
         </div>
         <div className="filter-card-container">
-          {this.state.filteredData.slice(0, this.state.showCount).map((item) => {
-            return (
-              <Card
-                artist={this.props.artist}
-                key={item.id}
-                collection={item.collection}
-                title={item.title}
-                image={item.image}
-                imageTxt={item.imageTxt}
-              />
-            )
-          })}
+          {this.state.filteredData
+            .slice(0, this.state.showCount)
+            .map((item) => {
+              return (
+                <Card
+                  artist={this.props.artist}
+                  key={item.id}
+                  collection={item.collection}
+                  title={item.title}
+                  image={item.image}
+                  imageTxt={item.imageTxt}
+                />
+              );
+            })}
         </div>
         <div className="filter-container-btn">
-          <button className="load-more-btn" onClick={this.loadMore.bind(this)}>{this.state.btnText}</button>
+          <button className="load-more-btn" onClick={this.loadMore.bind(this)}>
+            {this.state.btnText}
+          </button>
         </div>
       </section>
-    )
+    );
   }
 }
 
